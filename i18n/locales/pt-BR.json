@@ -1,0 +1,2551 @@
+{
+  "common": {
+    "tryFree": "Experimente grátis por 30 dias",
+    "seeDemo": "Ver demo ao vivo",
+    "noCreditCard": "Sem cartão de crédito",
+    "setup10Min": "Configuração em 10 min",
+    "thermalHardware": "Hardware térmico padrão",
+    "learnMore": "Saiba mais",
+    "contactUs": "Fale conosco",
+    "whatsapp": "WhatsApp",
+    "email": "E-mail",
+    "phone": "Telefone",
+    "back": "Voltar",
+    "comingSoon": "Em breve",
+    "requestDemo": "Solicite uma demo",
+    "language": "Idioma",
+    "skipToContent": "Pular para o conteúdo principal"
+  },
+  "nav": {
+    "features": "Funcionalidades",
+    "betTypes": "67 Tipos de Aposta",
+    "pricing": "Preços",
+    "sellers": "Vendedores",
+    "demo": "Demo",
+    "blog": "Blog",
+    "contact": "Contato",
+    "banqueros": "Banqueiros",
+    "main": "Navegação principal",
+    "menu": "Menu",
+    "turfArchitecture": "Arquitetura Turf"
+  },
+  "ticker": {
+    "osVersion": "TURF-OS V4.8",
+    "cloud": "LATAM CLOUD",
+    "nodeActive": "NÓ ATIVO 12ms",
+    "auditReady": "SHA-256 AUDIT READY"
+  },
+  "hero": {
+    "badge": "GESTÃO COMPLETA PARA AGÊNCIAS DE APOSTAS",
+    "title": "O sistema operacional moderno para sua {highlight}",
+    "titleHighlight": "agência hípica",
+    "subtitle": "Gerencie terminais de apostas em tempo real, automatize o cálculo de 67 tipos de apostas e emita bilhetes invioláveis em menos de um segundo. Sem taxas mensais fixas: você paga apenas uma porcentagem quando sua agência opera.",
+    "ctaPrimary": "Comece 30 Dias Grátis",
+    "ctaSecondary": "Ver Demo Interativa"
+  },
+  "metrics": {
+    "betTypes": {
+      "number": "67",
+      "label": "Tipos de Aposta",
+      "desc": "Nativas, exóticas e pools",
+      "kicker": "CATÁLOGO HÍPICO",
+      "icon": "lucide:trophy"
+    },
+    "latency": {
+      "number": "< 2ms",
+      "label": "Latência de Cálculo",
+      "desc": "Resolução em milissegundos",
+      "kicker": "VELOCIDADE DE CÁLCULO",
+      "icon": "lucide:gauge"
+    },
+    "fixedCost": {
+      "number": "$0",
+      "label": "Mensalidade Fixa",
+      "desc": "Pague apenas por venda líquida",
+      "kicker": "MODELO TRANSPARENTE",
+      "icon": "lucide:badge-check"
+    },
+    "uptime": {
+      "number": "99.98%",
+      "label": "Uptime Operacional",
+      "desc": "Modo offline local SQLite",
+      "kicker": "RESILIÊNCIA CRÍTICA",
+      "icon": "lucide:wifi-off"
+    }
+  },
+  "pillars": {
+    "sectionLabel": "Arquitetura Industrial Turf",
+    "title": "Quatro pilares projetados para proteger sua operação",
+    "desc": "Elimine fugas de caixa, agilize a fila do terminal nos horários de pico e garanta a auditoria contábil sem depender de planilhas manuais.",
+    "terminal": {
+      "module": "MÓDULO CENTRAL",
+      "title": "Terminal Multi-Caixa e Centralização",
+      "desc": "Controle total de múltiplas agências e caixas simultaneamente. Conciliações de caixa automáticas instantâneas e definição de limites de risco por terminal e corrida.",
+      "features": [
+        "Conciliação Z sem descasamentos noturnos",
+        "Permissões granulares para anulações",
+        "Multi-moeda nativa (VES, USD, COP, MXN, BRL)"
+      ],
+      "shortTitle": "Terminal Multi-Caixa e Centralização",
+      "shortDesc": "Controle total de múltiplas agências e caixas simultaneamente. Conciliações de caixa automáticas instantâneas e definição de limites de risco por terminal e corrida.",
+      "feature1": "Conciliação Z sem descasamentos noturnos",
+      "feature2": "Permissões granulares para anulações",
+      "feature3": "Multi-moeda nativa (VES, USD, COP, MXN, BRL)"
+    },
+    "motor": {
+      "module": "MOTOR DE APOSTAS",
+      "title": "Motor Pari-Mutuel e 67 Tipos Exóticos",
+      "desc": "Cálculo instantâneo de dividendos para Win, Place, Show, Exacta, Trifecta, Superfecta e dezenas de combinações exóticas.",
+      "features": [
+        "Resolução em < 2ms por combinação",
+        "Pools configuráveis por corrida",
+        "67 tipos de aposta nativos"
+      ],
+      "shortTitle": "Motor Pari-Mutuel",
+      "shortDesc": "Cálculo automático de prêmios com algoritmo de pool dinâmico. Processa as 67 variantes de aposta em milissegundos.",
+      "feature1": "67 tipos de aposta pré-configurados",
+      "feature2": "Cálculo em tempo real sem atraso",
+      "feature3": "Configuração de comissões por tipo"
+    },
+    "printing": {
+      "module": "IMPRESSÃO",
+      "title": "Impressão Térmica com QR e Auditoria",
+      "desc": "Emissão de bilhetes invioláveis com códigos QR criptográficos. Cada ticket é único, verificável e imutável.",
+      "features": [
+        "QR SHA-256 por ticket",
+        "Impressão em < 0,8 segundos",
+        "Formato padrão 80mm"
+      ],
+      "shortTitle": "Impressão Térmica Inviolável",
+      "shortDesc": "Emissão em menos de um segundo compatível com impressoras de 58mm e 80mm. Código QR criptografado para prevenir bilhetes duplicados ou adulterados.",
+      "feature1": "Assinatura de hash SHA-256 única por bilhete",
+      "feature2": "Validação por leitor de código de barras",
+      "feature3": "Tolerância a interrupções de internet"
+    },
+    "audit": {
+      "module": "AUDITORIA",
+      "title": "Auditoria SHA-256 e Rastro Contábil",
+      "desc": "Cada transação fica registrada com hash criptográfico. Conciliação automática entre caixa e sistema.",
+      "features": [
+        "Hash SHA-256 por transação",
+        "Conciliação automática",
+        "Relatórios em tempo real"
+      ],
+      "shortTitle": "Auditoria SHA-256",
+      "shortDesc": "Cada transação fica imutavelmente registrada com hash criptográfico. Rastreabilidade total da emissão até a liquidação.",
+      "feature1": "Registro imutável com hash SHA-256",
+      "feature2": "Auditoria em tempo real por filial",
+      "feature3": "Exportação de relatórios para fiscalização"
+    }
+  },
+  "pricing": {
+    "sectionLabel": "Modelo Transparente de Receita Compartilhada",
+    "title": "Se não houver corridas ou chover, seu custo é exatamente {price}",
+    "titlePrice": "$0.00",
+    "desc": "Esqueça de pagar licenças mensais fixas ou contratos abusivos. Na BetKit ganhamos apenas quando sua agência fatura. Inclui suporte contínuo direto a banqueiros e operadores sem custos adicionais.",
+    "features": [
+      "Caixas ilimitados por filial",
+      "Sem licenças por computador",
+      "Atualizações automáticas",
+      "Suporte 24/7 via WhatsApp"
+    ],
+    "fixedLabel": "Custo Fixo Mensal",
+    "fixedPrice": "$0",
+    "fixedUnit": "/mês",
+    "fixedDesc": "Taxa variável mínima por volume processado. O primeiro mês de adaptação é 100% livre de comissão.",
+    "cta": "Ativar 30 Dias de Teste",
+    "migration": "Migração de banco de dados incluída",
+    "homeTitle": "Comece com {price} de investimento inicial.",
+    "homeDesc": "Sem custos de instalação, sem licenças por terminal, sem surpresas. Nosso modelo de receita compartilhada se alinha ao seu sucesso: cobramos apenas quando sua agência gera receita.",
+    "featureCashiers": "Caixas ilimitados",
+    "featureNoLicenses": "Sem licenças",
+    "featureUpdates": "Atualizações incluídas",
+    "featureSupport": "Suporte 24/7",
+    "costLabel": "Custo da plataforma",
+    "costDesc": "Apenas uma comissão por transação sobre o volume de apostas. Sem custos ocultos."
+  },
+  "home": {
+    "banqueros": {
+      "badge": "DONOS E BANQUEIROS",
+      "title": "Você tem uma ou mais agências hípicas?",
+      "desc": "Pare de perder dinheiro com liquidações erradas e bilhetes duplicados. Automatize sua mesa e receba o saldo no celular a cada meia-noite.",
+      "cta": "Agendar Configuração Remota",
+      "shortDesc": "Unifique o gerenciamento de todas as suas filiais em um único painel. Controle vendas, impressão, liquidação e auditoria em tempo real independente do número de terminais.",
+      "ctaAlt": "Conhecer Plano Agência"
+    },
+    "expansion": {
+      "badge": "PROGRAMA DE EXPANSÃO",
+      "title": "Quer comercializar BetKit na sua região?",
+      "desc": "Torne-se um vendedor oficial autorizado. Ganhe comissões recorrentes por cada bilhete emitido nas agências que você trouxer para a rede.",
+      "cta": "Falar com Suporte de Canais",
+      "shortDesc": "Junte-se à nossa rede de distribuidores certificados na América Latina. Formação técnica completa, suporte prioritário e comissões competitivas por cada agência ativa.",
+      "ctaAlt": "Entrar na Rede"
+    }
+  },
+  "footer": {
+    "desc": "O sistema operacional moderno para agências de apostas hípicas. Projetado para operar na América Latina com padrões de segurança bancária.",
+    "certified": "REDE PRODUTIVA CERTIFICADA • DISPONIBILIDADE 99,98%",
+    "product": "Produto",
+    "company": "Empresa",
+    "features": "Funcionalidades",
+    "pricing": "Preços",
+    "demoLive": "Demo Ao Vivo",
+    "betTypes": "67 Tipos de Aposta",
+    "sellers": "Vendedores",
+    "documentation": "Documentação",
+    "support": "Suporte",
+    "contact": "Contato",
+    "sellerDesk": "Mesa Banqueiros",
+    "sellerDeskDesc": "Suporte crítico para saldo e conciliações disponível 24/7/365 via canal direto.",
+    "whatsappLine": "WHATSAPP LATAM",
+    "whatsappNumber": "+54 9 11 4092-TURF",
+    "copyright": "© 2025 BETKIT TECHNOLOGIES INC. TODOS OS DIREITOS RESERVADOS.",
+    "nodes": "NÓS DE REGIÃO LATAM",
+    "ssl": "SISTEMA CRIPTOGRAFADO SSL",
+    "links": {
+      "terminal": "Terminal de Apostas",
+      "betTypes": "67 Tipos de Aposta",
+      "motor": "Motor Pari-Mutuel",
+      "printing": "Impressão Térmica QR",
+      "audit": "Auditoria SHA-256",
+      "sellers": "Programa de Vendedores",
+      "terms": "Termos de Concessão",
+      "security": "Segurança de Dados",
+      "helpdesk": "Mesa de Ajuda"
+    },
+    "banqueros": "Banqueiros",
+    "blog": "Blog"
+  },
+  "features": {
+    "title": "Tudo que você precisa para operar sua Agência de Apostas, em um único software",
+    "subtitle": "A BetKit é uma plataforma de gestão completa para agências de apostas hípicas. Permite administrar múltiplas filiais a partir de uma única conta, processar vendas em diferentes moedas, configurar regras de prêmios por hipódromo e ter controle total do seu negócio em tempo real.",
+    "multiSucursal": {
+      "fullTitle": "Gerencie todas as suas filiais em um único painel",
+      "fullDesc": "Com a BetKit você pode gerenciar múltiplos estabelecimentos independentemente de quantos tenha. Cada filial funciona com seus próprios caixas, supervisores, moedas e regras de prêmios. Você escolhe quais hipódromos operam em cada uma. O seletor de filiais permite alternar entre elas com um único clique.",
+      "telemetry": {
+        "mode": "MODO MULTI-TENANT ATIVO · LATAM PARI-MUTUEL MESH",
+        "latency": "LATÊNCIA ENTRE FILIAIS: <14MS",
+        "fiscal": "REGRA FISCAL SEGREGADA",
+        "nodes": "NÓS ONLINE: 48"
+      },
+      "hero": {
+        "badge": "GESTÃO CENTRALIZADA · ARQUITETURA DISTRIBUÍDA",
+        "title": "Gerencie todas as suas filiais em um único painel",
+        "desc": "Com a BetKit você pode gerenciar múltiplos estabelecimentos independentemente de quantos tenha. Cada filial funciona com seus próprios caixas, supervisores, moedas e regras de prêmios. Você escolhe quais hipódromos operam em cada uma. O seletor de filiais permite alternar entre elas com um único clique.",
+        "ctaPrimary": "Ver Seletor de Filiais",
+        "ctaSecondary": "Solicitar Demo de Rede",
+        "metrics": [
+          {
+            "label": "TEMPO DE COMUTAÇÃO",
+            "value": "0,08 Segundos"
+          },
+          {
+            "label": "CONCILIAÇÃO DIÁRIA",
+            "value": "100% Automatizada"
+          },
+          {
+            "label": "ISOLAMENTO CONTÁBIL",
+            "value": "Criptográfico SHA-256"
+          }
+        ],
+        "topology": {
+          "headerLabel": "NETWORK TOPOLOGY // LATAM MESH v4.2",
+          "latency": "LATÊNCIA <12ms",
+          "live": "AO VIVO",
+          "hubLabel": "MASTER HUB",
+          "hubSub": "CLOUD CORE · 0,08s",
+          "nodes": [
+            {
+              "name": "Palermo Centro",
+              "status": "ACT",
+              "windows": "8 Guichês · ARS",
+              "latency": "14ms",
+              "uptime": "UPTIME 99,98%",
+              "link": "FIBRA A"
+            },
+            {
+              "name": "San Isidro Expr.",
+              "status": "SAT",
+              "windows": "4 Guichês · USD",
+              "latency": "18ms",
+              "uptime": "LEO BACKUP",
+              "link": "LINK OK"
+            },
+            {
+              "name": "Rinconada Norte",
+              "status": "ACT",
+              "windows": "6 Guichês · USD",
+              "latency": "16ms",
+              "uptime": "POOL SEPARADO",
+              "link": "0 CORTES"
+            },
+            {
+              "name": "Viña del Mar",
+              "status": "ACT",
+              "windows": "3 Guichês · CLP",
+              "latency": "12ms",
+              "uptime": "CANAL DEDICADO",
+              "link": "SYNC 100%"
+            }
+          ],
+          "footerTickets": "TOTAL DE TICKETS EM PROCESSO: 2.419",
+          "footerIsolation": "SHA-256 ISOLATION // ZERO-DROP"
+        }
+      },
+      "pillars": {
+        "kicker": "01 / INFRAESTRUTURA DE GESTÃO INTEGRAL",
+        "title": "Pilares de Controle Multi-Agência",
+        "desc": "Projetado para sustentar redes desde 2 salas urbanas até consórcios com centenas de guichês em toda a América do Sul.",
+        "cards": [
+          {
+            "code": "MOD_01",
+            "icon": "lucide:building-2",
+            "title": "CRUD completo de filiais",
+            "desc": "Criar, editar e excluir estabelecimentos a partir do painel do banqueiro em segundos.",
+            "footerLabel": "Provisionamento Instantâneo",
+            "footerValue": "< 30 seg. Ativação de Nó"
+          },
+          {
+            "code": "MOD_02",
+            "icon": "lucide:badge-check",
+            "title": "Atribuição de pessoal por filial",
+            "desc": "Cada caixa e supervisor pertence a uma ou mais filiais específicas com permissões granulares.",
+            "footerLabel": "Segurança Role-Based (RBAC)",
+            "footerValue": "Fechamento de Caixa por Turno"
+          },
+          {
+            "code": "MOD_03",
+            "icon": "lucide:sliders-horizontal",
+            "title": "Configuração independente",
+            "desc": "Moedas (ARS, USD, VEF, CLP), hipódromos habilitados, regras de prêmios e comissões são configurados separadamente.",
+            "footerLabel": "Multi-Moeda Simultâneo",
+            "footerValue": "Takeout & Retenção Custom"
+          },
+          {
+            "code": "MOD_04",
+            "icon": "lucide:qrcode",
+            "title": "Código QR único por filial",
+            "desc": "Para que seus clientes verifiquem tickets e histórico pelo próprio celular sem incomodar o guichê.",
+            "footerLabel": "Autoatendimento ao Apostador",
+            "footerValue": "Zero Congestão de Fila"
+          }
+        ]
+      },
+      "switcher": {
+        "kicker": "02 / DEMONSTRAÇÃO DE CONTROLE OPERACIONAL",
+        "title": "O Seletor Global de Rede",
+        "desc": "Navegue pela telemetria ao vivo. Selecione uma filial para comutar as métricas de guichê, a moeda base e a integridade operacional em tempo real.",
+        "selectorLabel": "SELECIONAR FILIAL ATIVA PARA TELEMETRIA:",
+        "modeLabel": "MODO VISTA AUDITOR BANQUEIRO",
+        "branches": [
+          {
+            "key": "palermo",
+            "name": "Palermo Centro",
+            "windows": "8 guichês ativos",
+            "currency": "ARS",
+            "status": "99,98% OK",
+            "tone": "primary"
+          },
+          {
+            "key": "san-isidro",
+            "name": "San Isidro Express",
+            "windows": "4 guichês ativos",
+            "currency": "USD",
+            "status": "SATELITAL",
+            "tone": "tertiary"
+          },
+          {
+            "key": "rinconada",
+            "name": "Rinconada Norte",
+            "windows": "6 guichês ativos",
+            "currency": "USD",
+            "status": "LINK ATIVO",
+            "tone": "primary"
+          },
+          {
+            "key": "vina",
+            "name": "Viña del Mar",
+            "windows": "3 guichês ativos",
+            "currency": "CLP",
+            "status": "ONLINE",
+            "tone": "primary"
+          }
+        ],
+        "branchesData": [
+          {
+            "title": "FILIAL PALERMO CENTRO",
+            "currencyBadge": "MOEDA: ARS",
+            "volume": "$ 14.892.400",
+            "margin": "19,2%",
+            "leaks": "0",
+            "qr": "QR-BK-PAL-01",
+            "tracks": "Palermo, La Plata, Gulfstream",
+            "payout": "$ 800.000 ARS",
+            "commission": "1,5% Bruto"
+          },
+          {
+            "title": "CONCESSÃO SAN ISIDRO EXPRESS",
+            "currencyBadge": "MOEDA: USD (SATELITAL)",
+            "volume": "$ 84.320 USD",
+            "margin": "21,5%",
+            "leaks": "0",
+            "qr": "QR-BK-SIS-04",
+            "tracks": "San Isidro, Belmont, Churchill",
+            "payout": "$ 2.500 USD",
+            "commission": "2,0% Bruto"
+          },
+          {
+            "title": "AGÊNCIA LA RINCONADA NORTE",
+            "currencyBadge": "MOEDA: USD / VEF POOL",
+            "volume": "$ 62.110 USD",
+            "margin": "22,8%",
+            "leaks": "0",
+            "qr": "QR-BK-RIN-02",
+            "tracks": "La Rinconada, Santa Anita, Tampa",
+            "payout": "$ 1.800 USD",
+            "commission": "1,8% Bruto"
+          },
+          {
+            "title": "GUICHÊ VIÑA DEL MAR",
+            "currencyBadge": "MOEDA: CLP",
+            "volume": "$ 48.250.000 CLP",
+            "margin": "18,9%",
+            "leaks": "0",
+            "qr": "QR-BK-VDM-01",
+            "tracks": "Valparaíso Sporting, Club Hípico",
+            "payout": "$ 1.500.000 CLP",
+            "commission": "1,2% Bruto"
+          }
+        ],
+        "panel": {
+          "sessionLabel": "AUDITORIA EM TEMPO REAL // SESSÃO ATIVA",
+          "metrics": {
+            "volume": {
+              "label": "VOLUME APOSTADO (HOJE)",
+              "sub": "+18,4% vs média semanal"
+            },
+            "margin": {
+              "label": "MARGEM DE RETENÇÃO LÍQUIDA",
+              "sub": "Takeout otimizado"
+            },
+            "leaks": {
+              "label": "VAZAMENTOS / DISCREPÂNCIAS",
+              "sub": "100% Quadrado nos guichês"
+            }
+          },
+          "consolidatedLabel": "CONSOLIDADO TOTAL DA REDE (48 FILIAIS ATIVAS):",
+          "consolidatedValue": "$ 842.150 USD EQ.",
+          "chart": [
+            {
+              "label": "PALERMO (38%)",
+              "width": "38%",
+              "title": "Palermo Centro (38%)"
+            },
+            {
+              "label": "SAN ISIDRO (26%)",
+              "width": "26%",
+              "title": "San Isidro (26%)"
+            },
+            {
+              "label": "RINCONADA (22%)",
+              "width": "22%",
+              "title": "La Rinconada (22%)"
+            },
+            {
+              "label": "VIÑA (14%)",
+              "width": "14%",
+              "title": "Viña del Mar (14%)"
+            }
+          ],
+          "footerLabel": "AUDITORIA FISCAL EMITIDA PELO NÓ CENTRAL",
+          "footerLink": "Ver Telemetria Completa"
+        },
+        "qr": {
+          "label": "VALIDAÇÃO MÓVEL DO CLIENTE",
+          "badge": "QR DEDICADO",
+          "scanNote": "Escaneamento direto para verificar tickets e histórico sem passar pelo guichê.",
+          "specs": [
+            {
+              "label": "Hipódromos Atribuídos:",
+              "key": "tracks"
+            },
+            {
+              "label": "Teto de Pagamento Automático:",
+              "key": "payout"
+            },
+            {
+              "label": "Comissão Caixas:",
+              "key": "commission"
+            }
+          ],
+          "button": "Modificar Regras da Filial"
+        }
+      },
+      "channel": {
+        "badge": "MODELO COMERCIAL B2B & ESCALABILIDADE",
+        "title": "Canal de Vendedores & Expansão Territorial",
+        "desc": "Ganhe comissões recorrentes oferecendo a BetKit a agências de apostas. Vincule promotores a filiais e liquide comissões automaticamente sem planilhas.",
+        "points": [
+          {
+            "title": "COMISSÕES 100% AUTO",
+            "desc": "Liquidação em tempo real por cada ticket colocado."
+          },
+          {
+            "title": "SUB-REDES ATRIBUÍDAS",
+            "desc": "Estruture hierarquias por zona, província ou país."
+          },
+          {
+            "title": "LIQUIDAÇÃO MULTI-MOEDA",
+            "desc": "Receba em moeda forte ou transferências bancárias locais."
+          }
+        ],
+        "cta": "Ir ao Módulo de Vendedores",
+        "sim": {
+          "label": "SIMULADOR DE DESEMPENHO",
+          "agencies": {
+            "label": "AGÊNCIAS INDICADAS:",
+            "value": "12 Sedes"
+          },
+          "turnover": {
+            "label": "TURNOVER MENSAL:",
+            "value": "$ 420.000 USD"
+          },
+          "commission": {
+            "label": "COMISSÃO ESTIMADA:",
+            "value": "$ 8.400 USD / mês"
+          },
+          "note": "* Cálculo baseado no split padrão de 2,0% sobre o gross handle turf pari-mutuel de agências ativas conectadas à BetKit."
+        }
+      },
+      "showcase": {
+        "items": [
+          {
+            "title": "Operação de Balcão Central",
+            "sub": "TERMINAL HARDWARE INDUSTRIAL COMPATÍVEL COM BETKIT POS",
+            "badge": "OFFICIAL READY"
+          },
+          {
+            "title": "Mesa de Supervisão Regional",
+            "sub": "CENTRO DE MONITORAMENTO UNIFICADO MULTI-JURISDIÇÃO",
+            "badge": "24/7 SURVEILLANCE"
+          }
+        ]
+      },
+      "closing": {
+        "kicker": "CAPACIDADE DE EXPANSÃO SEM LIMITES",
+        "title": "Escale sua rede de agências de 1 a 100 estabelecimentos sem mudar de sistema.",
+        "desc": "Nossos engenheiros configuram sua topologia multi-filial em 48 horas com migração de saldos e suporte ininterrupto.",
+        "cta": "Solicite sua demo guiada"
+      },
+      "title": "Multi-Filial",
+      "desc": "Gerencie todas as suas filiais em um único painel"
+    },
+    "premiaciones": {
+      "fullTitle": "Configure suas regras de prêmios exatamente como precisar",
+      "fullDesc": "O motor de prêmios da BetKit é o que nos torna únicos. Você pode definir regras de pagamento por hipódromo, por quantidade de competidores, com cálculos fixos ou acumulativos, e aplicar limites por grupo. Um simulador integrado permite testar qualquer cenário antes de aplicá-lo. E com os modelos, você pode reutilizar regras entre vários hipódromos com um único clique.",
+      "hero": {
+        "pill": "MOTOR MATRICIAL NATIVO · REGLAS FLEXIBLES",
+        "title": "Configure suas regras de prêmios exatamente como precisar",
+        "desc": "O motor de prêmios da BetKit é o que nos torna únicos. Você pode definir regras de pagamento por hipódromo, por quantidade de competidores, com cálculos fixos ou acumulativos, e aplicar limites por grupo. Um simulador integrado permite testar qualquer cenário antes de aplicá-lo. E com os modelos, você pode reutilizar regras entre vários hipódromos com um único clique.",
+        "ctaSimulator": "Testar Simulador ao Vivo",
+        "ctaDocs": "Ver Documentação de Regras",
+        "stats": [
+          {
+            "label": "LATENCIA PROMEDIO",
+            "value": "11.8",
+            "unit": "ms"
+          },
+          {
+            "label": "MODALIDADES AUDITADAS",
+            "value": "67",
+            "unit": "variantes"
+          },
+          {
+            "label": "DISPONIBILIDAD MOTOR",
+            "value": "99.998%",
+            "unit": "",
+            "tone": "primary"
+          },
+          {
+            "label": "PROTECCIÓN DE TOPE",
+            "value": "AUTOMÁTICA",
+            "unit": ""
+          }
+        ]
+      },
+      "simulator": {
+        "kicker": "CORE CALCULATION SANDBOX",
+        "title": "Simulador Interativo de Prêmios",
+        "traceChip": "Rastreabilidade Determinística Ativa",
+        "paramsLabel": "01 / ENTRADA DE PARÁMETROS",
+        "paramsBadge": "REAL-TIME INFERENCE",
+        "trackLabel": "Hipódromo & Corrida",
+        "tracks": [
+          {
+            "value": "HSI",
+            "cap": 5000,
+            "label": "Hipódromo de San Isidro (ARG) — Corrida 8 (G1)"
+          },
+          {
+            "value": "PAL",
+            "cap": 4500,
+            "label": "Hipódromo Argentino de Palermo (ARG) — Corrida 5"
+          },
+          {
+            "value": "LRN",
+            "cap": 3500,
+            "label": "Hipódromo La Rinconada (VEN) — Corrida 6 Clássica"
+          },
+          {
+            "value": "MAR",
+            "cap": 4000,
+            "label": "Hipódromo Nacional de Maroñas (URU) — Corrida 4"
+          },
+          {
+            "value": "HCH",
+            "cap": 4800,
+            "label": "Hipódromo Chile (CHI) — Corrida 10"
+          }
+        ],
+        "betTypeLabel": "Modalidade de Aposta",
+        "betTypes": [
+          {
+            "value": "trifecta_box",
+            "factor": 6,
+            "label": "Trifecta Combinada (Box 3 corredores)"
+          },
+          {
+            "value": "ganador",
+            "factor": 1,
+            "label": "Ganhador Direto (Straight Win)"
+          },
+          {
+            "value": "exacta",
+            "factor": 1,
+            "label": "Exacta Direta"
+          },
+          {
+            "value": "cuatrifecta",
+            "factor": 24,
+            "label": "Cuatrifecta Combinada (Box)"
+          },
+          {
+            "value": "place",
+            "factor": 1,
+            "label": "Segundo / Place"
+          }
+        ],
+        "runnersLabel": "Competidores na Partida",
+        "runnersSuffix": "Cavalos",
+        "runnersMin": 5,
+        "runnersMax": 20,
+        "runnersDefault": 12,
+        "tierMin": "Min: 5",
+        "tierA": "Tier A (8-11)",
+        "tierB": "Tier B (12+)",
+        "tierMax": "Max: 20",
+        "dividendLabel": "Dividendo Oficial ($)",
+        "stakeLabel": "Valor da Aposta (USD)",
+        "presetsLabel": "Presets:",
+        "presets": [
+          5,
+          10,
+          50,
+          200
+        ],
+        "cap": {
+          "icon": "lucide:shield",
+          "label": "Limite de Risco Configurado",
+          "active": "ACTIVO",
+          "template": "{track} Tier: Max ${cap} USD"
+        },
+        "engine": {
+          "label": "02 / MOTOR DE LIQUIDACIÓN DETERMINÍSTICA",
+          "execLabel": "EXEC TIME:",
+          "trace": [
+            {
+              "num": "01",
+              "label": "Validação de Regra Pari-Mutuel",
+              "key": "ruleMatch"
+            },
+            {
+              "num": "02",
+              "label": "Base de Cálculo & Fator",
+              "key": "factor"
+            },
+            {
+              "num": "03",
+              "label": "Multiplicação Bruta (Aposta × Dividendo)",
+              "key": "rawPayout"
+            },
+            {
+              "num": "04",
+              "label": "Dedução de Retenção / Filial (12%)",
+              "key": "retention"
+            },
+            {
+              "num": "05",
+              "label": "Avaliação de Teto Máximo (Cap)",
+              "key": "capEvaluation"
+            }
+          ],
+          "finalLabel": "PREMIO FINAL A LIQUIDAR (NET PAYOUT)",
+          "unit": "USD NETO",
+          "recalculate": "Recalcular",
+          "agencyLabel": "Comissão da Agência:"
+        }
+      },
+      "features": {
+        "kicker": "PRECISIÓN DE OPERACIONES",
+        "title": "Arquitetura sem ambiguidade: 7 pilares de controle absoluto",
+        "desc": "Eliminamos o erro humano e a discricionariedade no guichê. Cada pagamento é regulado por fórmulas matemáticas fixas e invioláveis.",
+        "cards": [
+          {
+            "icon": "lucide:landmark",
+            "rule": "RULE 01",
+            "title": "Regras por hipódromo",
+            "desc": "Cada hipódromo pode ter suas próprias regras de prêmio (Palermo, San Isidro, La Rinconada, Maroñas, Chile).",
+            "footer": "Perfis territoriais independentes"
+          },
+          {
+            "icon": "lucide:list-ordered",
+            "rule": "RULE 02",
+            "title": "Agrupamento por competidores",
+            "desc": "Regras diferentes conforme quantos corredores participam da partida. Escalas dinâmicas em retiradas de última hora.",
+            "footer": "Ajuste automático por scratches"
+          },
+          {
+            "icon": "lucide:sigma",
+            "rule": "RULE 03",
+            "title": "Cálculo fixo ou acumulativo",
+            "desc": "Valores estáticos ou valores que se somam conforme a configuração da jogada. Compatível com pools vagas e carryovers.",
+            "footer": "Modos Dual-Pari & Fixo"
+          },
+          {
+            "icon": "lucide:shield",
+            "rule": "RULE 04",
+            "title": "Teto (cap) por grupo",
+            "desc": "Limite máximo de pagamento configurável por cada grupo de regras para proteger o saldo da banca contra prêmios massivos.",
+            "footer": "Proteção de solvência bancária"
+          },
+          {
+            "icon": "lucide:terminal",
+            "rule": "RULE 05",
+            "title": "Simulador de prêmios ao vivo",
+            "desc": "Informe o dividendo, o valor da aposta e a quantidade de competidores — o sistema mostra o caminho do cálculo passo a passo.",
+            "footer": "Auditoria em tempo zero"
+          },
+          {
+            "icon": "lucide:copy",
+            "rule": "RULE 06",
+            "title": "Modelos reutilizáveis",
+            "desc": "Salve regras como modelos mestres e aplique-as em vários hipódromos sem reconfigurar ponto por ponto.",
+            "footer": "Deploy multi-pista 1-clique"
+          }
+        ],
+        "wide": {
+          "icon": "lucide:store",
+          "title": "Comissões por filial",
+          "badge": "MODULAR",
+          "desc": "Percentuais de comissão para banqueiro, vendedor e sistema, configuráveis por estabelecimento ou sub-agência física em tempo real.",
+          "footerLabel": "Liquidação Multi-Nível",
+          "footerValue": "Banca · POS · Red"
+        }
+      },
+      "templates": {
+        "kicker": "PLANTILLAS PRE-CONFIGURADAS",
+        "title": "Prontas para desdobrar na sua rede de agências",
+        "desc": "Selecione um perfil regulamentar conforme a jurisprudência e tradição turf de cada hipódromo associado.",
+        "cta": "Carregar no Simulador",
+        "cards": [
+          {
+            "id": "HSI",
+            "title": "Regra Tradicional Argentina",
+            "code": "ARG_STD_v3",
+            "desc": "Desenhada para a dinâmica de San Isidro e Palermo. Aplica dividendo oficial com retenção escalonada para jogadas combinadas complexas.",
+            "features": [
+              "Teto Máx: $4.500 USD por ticket",
+              "Regra de place ativa desde 5 partidores",
+              "Comissão bancária padrão: 15%"
+            ]
+          },
+          {
+            "id": "LRN",
+            "title": "Regra Oficial Venezuela",
+            "code": "INH_LRN_v2",
+            "desc": "Adaptada à operação de La Rinconada e quadros de 5y6 nacional. Suporta cálculo de dividendos na tabuleta oficial INH.",
+            "features": [
+              "Teto de Risco: $3.500 USD",
+              "Subdivisão especial para Loto Hípico",
+              "Retenção para vendedor: 8% direta"
+            ]
+          },
+          {
+            "id": "MAR",
+            "title": "Simulcast Internacional",
+            "code": "INTL_COMM_v5",
+            "desc": "Para corridas importadas (Gulfstream Park, Belmont, Chile, Maroñas). Conexão direta a pools pari-mutuel co-mingled ou comissões locais.",
+            "features": [
+              "Multi-moeda (USD / Local)",
+              "Teto dinâmico conforme liquidez do pool",
+              "Ajuste automático por fuso horário"
+            ]
+          }
+        ]
+      },
+      "audit": {
+        "kicker": "AUDITORÍA & BLINDAJE FISCAL",
+        "title": "Cálculos certificados para reguladores e agências",
+        "desc": "A BetKit registra a árvore de decisão completa de cada ticket emitido. Cada dividendo liquidado possui um hash criptográfico imutável que valida a regra aplicada no momento do pagamento.",
+        "checks": [
+          {
+            "icon": "lucide:lock",
+            "label": "Logs imutáveis SHA-256 por pagamento"
+          },
+          {
+            "icon": "lucide:badge-check",
+            "label": "Conformidade com diretivas de loterias provinciais"
+          },
+          {
+            "icon": "lucide:cloud-download",
+            "label": "Cópia de segurança local na terminal POS sem conexão"
+          }
+        ],
+        "panelLabel": "METRICAS DE INTEGRIDAD (ÚLTIMAS 24H)",
+        "panelBadge": "LIVE STATUS",
+        "chartLabel": "DISPERSION DE RESOLUCIÓN (MS)",
+        "chartSub": "99.98% DENTRO DE SLA (<25ms)",
+        "chartTimes": [
+          "00:00 UTC",
+          "06:00 UTC",
+          "12:00 UTC",
+          "18:00 UTC"
+        ],
+        "chartNow": "NOW (11.8ms)",
+        "stats": [
+          {
+            "label": "DISCREPANCIAS",
+            "value": "0.00%"
+          },
+          {
+            "label": "TOPES EJECUTADOS",
+            "value": "1,428",
+            "tone": "primary"
+          },
+          {
+            "label": "POOL TOTAL AUDITADO",
+            "value": "$1.8M"
+          }
+        ]
+      },
+      "cta": {
+        "kicker": "AUDITORÍA PERSONALIZADA EN VIVO",
+        "title": "Quer auditar o motor de prêmios com o regulamento do seu hipódromo?",
+        "desc": "Agende uma demonstração técnica de 15 minutos com nossos arquitetos de sistemas. Carregamos o regulamento das suas salas e simulamos suas corridas mais complexas.",
+        "primary": "Solicitar Demonstração Técnica",
+        "secondary": "Explorar Catálogo de Apostas",
+        "micro": [
+          "Sem compromisso comercial",
+          "Acesso imediato à Sandbox API",
+          "Suporte LATAM 24/7"
+        ]
+      },
+      "title": "Motor de Prêmios",
+      "desc": "Configure suas regras de prêmios exatamente como precisar",
+      "telemetry": {
+        "label": "MOTOR MATRICIAL NATIVO · REGRAS FLEXÍVEIS",
+        "regions": "CÁLCULO PARI-MUTUEL · LATAM",
+        "item1": "LATÊNCIA MÉDIA 11,8MS",
+        "item2": "MODALIDADES AUDITADAS: 67"
+      }
+    },
+    "betTypes": {
+      "fullTitle": "67 modalidades nativas. Zero risco de vazamentos.",
+      "fullDesc": "Arquitetura de liquidação instantânea para agências de corridas de cavalos e redes de concessão. Execute apostas diretas, exóticas complexas, pools acumuladas e jogadas combinadas em menos de 2 milissegundos com conciliação contábil estrita de 100%.",
+      "telemetry": {
+        "engineLabel": "MOTOR MATEMÁTICO DETERMINÍSTICO",
+        "engineSub": "CÁLCULO PARI-MUTUEL EXATO LATAM",
+        "resolutionLabel": "TEMPO DE RESOLUÇÃO:",
+        "resolutionValue": "1,84 ms",
+        "qrLabel": "TICKET QR SHA-256:",
+        "qrValue": "VALIDADO",
+        "updateLabel": "ATUALIZAÇÃO DIARIA AUTOMÁTICA"
+      },
+      "hero": {
+        "badge": "MOTOR PARI-MUTUEL V4.8 · COBERTURA LATAM",
+        "title": "67 modalidades nativas.",
+        "titleHighlight": "Zero risco de vazamentos.",
+        "subtitle": "Arquitetura de liquidação instantânea para agências de corridas de cavalos e redes de concessão. Execute apostas diretas, exóticas complexas, pools acumuladas e jogadas combinadas em menos de 2 milissegundos com conciliação contábil estrita de 100%.",
+        "searchPlaceholder": "Buscar modalidade (ex.: Trifecta Box, Pick 4, Llave Palermo, Pozo La Rinconada)...",
+        "searchClearHint": "ESC P/ LIMPAR",
+        "searchAriaLabel": "Buscar entre os 67 tipos de aposta",
+        "filtersAriaLabel": "Filtros por categoria de apostas",
+        "filters": [
+          {
+            "category": "all",
+            "label": "TODAS (67)"
+          },
+          {
+            "category": "nacionales",
+            "label": "NACIONAIS"
+          },
+          {
+            "category": "internacionales",
+            "label": "SIMULCAST"
+          },
+          {
+            "category": "exoticas",
+            "label": "EXÓTICAS"
+          },
+          {
+            "category": "pools",
+            "label": "POOL/JACKPOT"
+          }
+        ],
+        "stats": [
+          {
+            "label": "Resolução da Caixa",
+            "value": "< 0,8s",
+            "sub": "Impressão térmica ultrarrápida",
+            "tone": "primary"
+          },
+          {
+            "label": "Hipódromos Online",
+            "value": "48+ Pistas",
+            "sub": "ARG, VEN, URY, CHI, EUA",
+            "tone": "default"
+          },
+          {
+            "label": "Cálculo de Descarte",
+            "value": "Automático",
+            "sub": "Regra de retirados imediata",
+            "tone": "tertiary"
+          },
+          {
+            "label": "Auditoria Criptográfica",
+            "value": "SHA-256",
+            "sub": "Lacre anti-fraude de ticket",
+            "tone": "default"
+          }
+        ]
+      },
+      "catalog": {
+        "kicker": "CATÁLOGO OPERACIONAL AO VIVO",
+        "title": "Matrizes disponíveis na caixa",
+        "desc": "Cada tipo de aposta opera sob motor pari-mutuel estrito ou cotações fixas autorizadas, processando combinações e matrizes de forma nativa.",
+        "cards": [
+          {
+            "category": "exoticas",
+            "badge": "EXÓTICA-CHAVE",
+            "badgeTone": "primary",
+            "code": "COD: TRF-BX",
+            "title": "Trifecta Box & Straight",
+            "desc": "Algoritmo combinatorio inteligente. Permite permutar de 3 a 14 corredores em segundos, calculando o custo total e as combinações possíveis em tempo real sem travar a caixa.",
+            "specs": [
+              {
+                "label": "Combinação 4 Cavalos:",
+                "value": "24 Fórmulas",
+                "tone": "primary"
+              },
+              {
+                "label": "Regra de Retiradas:",
+                "value": "Reembolso / Rebalanceio Auto",
+                "tone": "default"
+              },
+              {
+                "label": "Takeout Regulatório:",
+                "value": "Parametrizável por Hipódromo",
+                "tone": "tertiary"
+              }
+            ],
+            "venues": "PALERMO · GULFSTREAM",
+            "action": "TESTAR NA CAIXA"
+          },
+          {
+            "category": "exoticas",
+            "badge": "EXÓTICA MULTI-POSIÇÃO",
+            "badgeTone": "tertiary",
+            "code": "COD: CTF-EXA",
+            "title": "Exacta, Imperfecta & Cuatrifecta",
+            "desc": "Suporta ordem exata, combinadas, rodas (keys) com base fixa e parciais. Validação instantânea de combinações inválidas antes de enviar à memória fiscal.",
+            "specs": [
+              {
+                "label": "Modo Chave Fixa:",
+                "value": "1 Contra Todos / Blocos",
+                "tone": "primary"
+              },
+              {
+                "label": "Cuatrifecta Mínima:",
+                "value": "Base $0,10 / $100 / $1000",
+                "tone": "default"
+              },
+              {
+                "label": "Multiplicador de Pool:",
+                "value": "Ativo com Carryover",
+                "tone": "tertiary"
+              }
+            ],
+            "venues": "SAN ISIDRO · MAROÑAS",
+            "action": "VER SIMULAÇÃO"
+          },
+          {
+            "category": "pools",
+            "badge": "POOL ACUMULADO",
+            "badgeTone": "container",
+            "code": "COD: PK-JACK",
+            "title": "Pick 4, Pick 6 & 5y6 Oficial",
+            "desc": "Gerenciador robusto para pools tradicionais de corridas múltiplas com prêmios de consola (5 em 6 acertos) e bolsa acumulada. Interface ultrarrápida de seleção tipo cartão perfurado.",
+            "specs": [
+              {
+                "label": "Suporte 5y6 Nacional:",
+                "value": "La Rinconada / Palermo",
+                "tone": "primary"
+              },
+              {
+                "label": "Cálculo Tabela de Quadros:",
+                "value": "Fatorial Exponencial Seguro",
+                "tone": "default"
+              },
+              {
+                "label": "Consolação e Pools Restantes:",
+                "value": "Liquidação Condicional",
+                "tone": "tertiary"
+              }
+            ],
+            "venues": "LA RINCONADA · CLUBE HÍPICO",
+            "action": "REVISAR FÓRMULA"
+          },
+          {
+            "category": "nacionales",
+            "badge": "DIRETAS BÁSICAS",
+            "badgeTone": "default",
+            "code": "COD: WIN-PLC-SHW",
+            "title": "Ganhador, 2° & 3°",
+            "desc": "A base do volume da caixa. Emissão com 1 único toque do teclado numérico (hotkey runner). Liquidação automática de Dead Heat (empate oficial na tábua de chegada).",
+            "specs": [
+              {
+                "label": "Tempo de Marcação:",
+                "value": "0,4 Segundos",
+                "tone": "primary"
+              },
+              {
+                "label": "Tratamento de Empate:",
+                "value": "Divisão Pari-Mutuel Exata",
+                "tone": "default"
+              },
+              {
+                "label": "Limites por Caixa:",
+                "value": "Parametrizável ao Vivo",
+                "tone": "tertiary"
+              }
+            ],
+            "venues": "TODAS AS PISTAS",
+            "action": "CONFIGURAR HOTKEY"
+          },
+          {
+            "category": "nacionales",
+            "badge": "TRADIÇÃO LATAM",
+            "badgeTone": "primary",
+            "code": "COD: LLV-ENG",
+            "title": "Chaves, Dobles & Enganches",
+            "desc": "Adaptado ao padrão da Argentina, Chile e Uruguai: Doble Desquite, Doble Extra, Chaves por grupo e jogadas contínuas com reinvestimento de dividendo.",
+            "specs": [
+              {
+                "label": "Doble com Troca:",
+                "value": "Habilitado Automático",
+                "tone": "primary"
+              },
+              {
+                "label": "Agrupamento de Chaves:",
+                "value": "Matriz Oficial de Programa",
+                "tone": "default"
+              },
+              {
+                "label": "Fechamento de Corrida:",
+                "value": "Bloqueio por Fotofinish",
+                "tone": "tertiary"
+              }
+            ],
+            "venues": "PALERMO · LA PLATA · CHILE",
+            "action": "VER REGRAS"
+          },
+          {
+            "category": "internacionales",
+            "badge": "FEED SATELITAL",
+            "badgeTone": "tertiary",
+            "code": "COD: SIM-US-TOTE",
+            "title": "Simulcast & Tote Comum",
+            "desc": "Integração de dividendos oficiais dos EUA e da Europa via protocolo ITW/AmTote. Superfecta, Super High 5 e Daily Double sincronizados ao segundo.",
+            "specs": [
+              {
+                "label": "Pistas Sincronizadas:",
+                "value": "Gulfstream, Saratoga, Churchill",
+                "tone": "primary"
+              },
+              {
+                "label": "Protocolo de Conversão:",
+                "value": "Câmbio em Vivo",
+                "tone": "default"
+              },
+              {
+                "label": "Latência de Dividendo:",
+                "value": "< 350 ms",
+                "tone": "tertiary"
+              }
+            ],
+            "venues": "EUA · REINO UNIDO · FRANÇA",
+            "action": "VER PROTOCOLO"
+          }
+        ],
+        "compliance": {
+          "icon": "lucide:shield-check",
+          "kicker": "CONFORMIDADE REGULATÓRIA LATAM",
+          "title": "Tabelas oficiais pré-carregadas e atualizadas",
+          "desc": "A BetKit inclui as regras e descontos tributários oficiais do Hipódromo Argentino de Palermo, San Isidro, La Plata, La Rinconada (INH), Maroñas, Valparaíso Sporting e Clube Hípico de Santiago. Esqueça a retenção manual.",
+          "tracks": [
+            {
+              "name": "PALERMO",
+              "rule": "REGLAMENTO HAP"
+            },
+            {
+              "name": "LA RINCONADA",
+              "rule": "POZO 5y6 INH"
+            },
+            {
+              "name": "MAROÑAS",
+              "rule": "DGCU URUGUAY"
+            },
+            {
+              "name": "CHILE TURF",
+              "rule": "CHS & VSC"
+            }
+          ]
+        }
+      },
+      "simulator": {
+        "kicker": "VELOCIDADE DE ATENDIMENTO PARA CAIXAS VENDE-PAGAS",
+        "title": "Simulador de caixa & ticket térmico",
+        "desc": "Verifique a experiência do operador: 0,8 segundos do clique à impressão com teclado numérico ergonômico e lacre de segurança infalsificável.",
+        "terminal": {
+          "ariaLabel": "Controles de Simulação de Caixa",
+          "counterLabel": "CAIXA 04 - CAPEIRO: M. ALVAREZ",
+          "status": "ONLINE · BUFFER OK",
+          "trackLabel": "HIPÓDROMO E PROGRAMA ATIVO",
+          "tracks": [
+            {
+              "id": "HIPÓDROMO PALERMO",
+              "label": "PALERMO (ARG)"
+            },
+            {
+              "id": "LA RINCONADA",
+              "label": "LA RINCONADA (VEN)"
+            },
+            {
+              "id": "GULFSTREAM PARK",
+              "label": "GULFSTREAM (EUA)"
+            }
+          ],
+          "raceLabel": "SELEÇÃO DE CORRIDA",
+          "raceClose": "FECHAMENTO: 03:42 MIN",
+          "races": [
+            "R1",
+            "R2",
+            "R3",
+            "R4",
+            "R5",
+            "R6",
+            "R7"
+          ],
+          "betTypeLabel": "TIPO DE JOGADA (HOTKEYS TECLADO)",
+          "betTypes": [
+            {
+              "id": "GANADOR",
+              "label": "GANADOR",
+              "hotkey": "F1"
+            },
+            {
+              "id": "TRIFECTA BOX",
+              "label": "TRIFECTA BOX",
+              "hotkey": "F2"
+            },
+            {
+              "id": "EXACTA",
+              "label": "EXACTA",
+              "hotkey": "F3"
+            },
+            {
+              "id": "POZO 5y6",
+              "label": "5 E 6",
+              "hotkey": "F4"
+            }
+          ],
+          "runnersLabel": "SELECIONAR CORREDORES PARTICIPANTES",
+          "runners": [
+            "1",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "10"
+          ],
+          "stakeLabel": "VALOR BASE:",
+          "stakes": [
+            100,
+            500,
+            1000,
+            5000
+          ],
+          "emitLabel": "EMITIR TICKET (0,8s)",
+          "printing": "IMPRIMINDO...",
+          "emitted": "TICKET #8942 OK"
+        },
+        "ticket": {
+          "ariaLabel": "Ticket Térmico Emitido e Verificação Criptográfica",
+          "brand": "BETKIT TURF OS",
+          "brandSub": "SISTEMA OFICIAL DE APPOSTAS PARI-MUTUEL",
+          "meta": {
+            "date": "DATA:",
+            "track": "HIPÓDROMO:",
+            "race": "CORRIDA:",
+            "mode": "MODALIDADE:"
+          },
+          "combosLabel": "COMBINAÇÕES JOGADAS:",
+          "unitBets": "{count} APSTAS UNITÁRIAS POR {stake} CADA",
+          "totalLabel": "TOTAL DA APOSTA:",
+          "hash": "HASH: e7b8f902ac556d10c2794103fa99b4501438902bca77",
+          "expires": "VALIDADE DE 30 DIAS ÚTEIS · CONFIRA SEU TICKET",
+          "qrAriaLabel": "Código QR de verificação criptográfica do ticket SHA-256",
+          "printerNote": "COMPATÍVEL COM IMPRESSORAS EPSON TM-T20 E BIXOLON"
+        }
+      },
+      "banker": {
+        "kicker": "CONTROLE PATRIMONIAL DO PROPRIETÁRIO",
+        "title": "Engenharia para a proteção do banqueiro",
+        "desc": "Diferente dos sistemas obsoletos que colapsam nas corridas mais concorridas, a BetKit protege a rentabilidade de cada sala em milissegundos.",
+        "cards": [
+          {
+            "icon": "lucide:scale",
+            "title": "Zero Divergência Contábil",
+            "desc": "Auditoria em tempo real entre apostas emitidas, prêmios devidos e arqueo físico. Cada centavo emitido em qualquer filial tem respaldo no livro-razão imutável.",
+            "footer": "CONCILIAÇÃO 100% AUDITÁVEL"
+          },
+          {
+            "icon": "lucide:shield",
+            "title": "Limites de Risco por Caixa",
+            "desc": "Limite a exposição financeira instantaneamente. Configure limites máximos por combinação (ex.: no máximo $500.000 em uma mesma trifecta em uma sala sem aprovação remota da gerência).",
+            "footer": "CONTROLE DE EXPOSIÇÃO AO VIVO"
+          },
+          {
+            "icon": "lucide:wifi-off",
+            "title": "Buffer e Suporte Offline",
+            "desc": "Corte de fibra 1 minuto antes da largada? O módulo local armazena apostas criptografadas com carimbo de tempo local e sincroniza automaticamente quando a rede se restabelecer.",
+            "footer": "RESISTÊNCIA A QUEDAS CRÍTICAS"
+          }
+        ]
+      },
+      "deploy": {
+        "kicker": "IMPLANTAÇÃO IMEDIATA",
+        "title": "Ative sua rede de agências em 48 horas sem trocar o hardware.",
+        "desc": "Nossa suíte é compatível com qualquer PC com Windows 7/10/11, terminais Android POS táteis ou tablets de caixa. Não requer servidores caros nos seus locais.",
+        "cta": "Teste Grátis de 30 Dias"
+      },
+      "cta": {
+        "kicker": "PADRÃO DEFINITIVO DO TURF MODERNO",
+        "title": "Leve sua agência ao século XXI com as 67 jogadas nativas",
+        "desc": "Junte-se aos mais de 1.400 operadores na Argentina, Venezuela, Uruguai e Chile que operam sem defasagem de dividendo nem perdas por cálculos errados.",
+        "primary": "Começar 30 Dias Grátis",
+        "secondary": "Agendar Configuração Remota",
+        "telemetry": [
+          "Servidores em São Paulo e Santiago",
+          "Cifragem SHA-256",
+          "Suporte 24/7 ao Vivo"
+        ]
+      },
+      "title": "Tipos de Aposta",
+      "desc": "67 modalidades nativas. Zero risco de vazamentos."
+    },
+    "printing": {
+      "fullTitle": "Tickets impressos com código QR — profissionais e verificáveis",
+      "fullDesc": "Cada aposta gerada é impressa automaticamente em impressora térmica. Os tickets incluem código QR para seus clientes verificarem o status pelo celular. Funciona com impressoras Epson e Star, em papel de 58mm e 80mm, com 4 modelos de design diferentes conforme o tipo de aposta.",
+      "telemetry": {
+        "driver": "DRV_CORE: ESC/POS & STAR_PRNT V4.19 ATIVADO",
+        "spooler": "SPOOLER BUFFER: 0 PENDENTE",
+        "sha": "SALT SIMÉTRICO SHA-256 ATIVO",
+        "latency": "LATÊNCIA: < 840ms"
+      },
+      "hero": {
+        "badge": "HARDWARE & INTEGRAÇÃO DE HARDWARE · EMISSÃO FÍSICA IMEDIATA",
+        "title": "Tickets impressos com código QR — profissionais e verificáveis",
+        "desc": "Cada aposta gerada é impressa automaticamente em impressora térmica. Os tickets incluem código QR para seus clientes verificarem o status pelo celular. Funciona com impressoras Epson e Star, em papel de 58mm e 80mm, com 4 modelos de design diferentes conforme o tipo de aposta.",
+        "ctaDemo": "VER DEMO DE IMPRESSÃO",
+        "ctaSpec": "BAIXAR ESPECIFICAÇÃO TÉCNICA (PDF)",
+        "stats": [
+          {
+            "label": "VELOCIDAD DISPARO",
+            "value": "0.8s",
+            "sub": "Latência ESC/POS",
+            "tone": "primary"
+          },
+          {
+            "label": "FORMATOS DE CORTE",
+            "value": "58 / 80mm",
+            "sub": "Bobina padrão e compacta"
+          },
+          {
+            "label": "COLAS OFF-LINE",
+            "value": "3 Reintentos",
+            "sub": "Exponential Backoff Anti-Drop"
+          },
+          {
+            "label": "INTEGRIDAD CRIPTOGRÁFICA",
+            "value": "SHA-256",
+            "sub": "Assinatura Hash Única",
+            "tone": "primary"
+          }
+        ]
+      },
+      "simulator": {
+        "kicker": "INTERACTIVE SIMULATION RIG",
+        "title": "SIMULADOR DE MODELOS E TICKET TÉRMICO AO VIVO",
+        "widthLabel": "LARGURA DA BOBINA:",
+        "width58": "58 mm (Compacto)",
+        "width80": "80 mm (Padrão)",
+        "templates": [
+          {
+            "key": "simple",
+            "label": "1. SIMPLE",
+            "sub": "Win / Place / Show"
+          },
+          {
+            "key": "multi",
+            "label": "2. MULTI",
+            "sub": "Múltiplos corredores"
+          },
+          {
+            "key": "combo",
+            "label": "3. COMBO",
+            "sub": "Trifecta / Exacta Box"
+          },
+          {
+            "key": "multirace",
+            "label": "4. MULTIRACE",
+            "sub": "Pick 3 / Pick 4 / Pick 6"
+          }
+        ],
+        "printerLabel": "VIRTUAL PRINTER SPOOL RENDERER",
+        "ticket": {
+          "brand": "BETKIT TURF OS",
+          "agency": "AGÊNCIA HÍPICA CENTRAL S.A.",
+          "cuit": "CUIT: 30-71829304-8 · REG. LOTERIA NACIONAL",
+          "terminal": "TERMINAL: POS-A04",
+          "cashier": "CAIXA: OP_8842",
+          "ticketNo": "TIC #892-004812",
+          "trackLabel": "SAN ISIDRO (ARG)",
+          "baseLabel": "APOSTA BASE:",
+          "combosLabel": "COMBINAÇÕES:",
+          "totalLabel": "VALOR TOTAL:",
+          "qrHint": "ESCANEIE COM A CÂMERA PARA STATUS OFICIAL",
+          "hashLabel": "HASH DE AUTENTICIDADE SHA-256:",
+          "legal": "Validade legal de 30 dias corridos. Não são aceitos bilhetes rasgados ou riscados. Sujeito ao regulamento do hipódromo emissor."
+        },
+        "hardware": {
+          "title": "CONEXÃO E HARDWARE POS",
+          "status": "ONLINE · USB/ETH",
+          "specs": [
+            {
+              "label": "EQUIPAMENTO HOMOLOGADO",
+              "value": "EPSON TM-T88VI",
+              "tone": "default"
+            },
+            {
+              "label": "AUTO-CUTTER",
+              "value": "ATIVO (FULL CUT)",
+              "tone": "primary"
+            },
+            {
+              "label": "TEMPO DE RESPOSTA",
+              "value": "0,78s MÉDIA",
+              "tone": "default"
+            },
+            {
+              "label": "ESTADO DA BOBINA",
+              "value": "88% (OK)",
+              "tone": "default"
+            }
+          ],
+          "profileLabel": "PERFIL DE EMULAÇÃO ATIVA:",
+          "profiles": [
+            "Epson ESC/POS",
+            "StarPRNT",
+            "Bixolon SLK",
+            "Custom Kube"
+          ],
+          "testTitle": "TESTE DE ENVIO DE TICKET",
+          "testPort": "PORT: 9100 RAW / IP: 192.168.1.140",
+          "testDesc": "Teste como o microsserviço BetKit Terminal spooler empacota as instruções ESC/POS com corte rápido e alimenta o sensor de fim de papel sem travar a interface do operador.",
+          "testBtn": "DISPARAR IMPRESSÃO DEMO",
+          "testAlert": "✓ TICKET ENVIADO PARA FILA LOCAL (820ms)",
+          "calloutTitle": "Sem Bloqueio de UI para o Operador",
+          "calloutDesc": "O motor despacha a thread de impressão em nível nativo do sistema operacional (daemon em background). O operador do guichê pode digitar e liquidar a próxima jogada imediatamente sem esperar o carro térmico terminar de ejetar."
+        }
+      },
+      "features": {
+        "kicker": "ARCHITECTURE & RESILIENCE",
+        "title": "As 5 Capacidades Centrais do Motor de Impressão",
+        "desc": "Projetado para o ritmo implacável do minuto antes do fechamento da partida. Sem tickets travados, sem discrepâncias contábeis e com verificação criptográfica à prova de fotocópias ou adulterações.",
+        "cards": [
+          {
+            "code": "MOD_01",
+            "icon": "lucide:layout-grid",
+            "title": "4 Modelos Especializados",
+            "desc": "Simple, Multi, Combo e Multirace. Cada formato é calibrado ao milímetro para compactar o consumo de papel térmico, reduzindo até 28% do custo anual de bobinas sem sacrificar legibilidade.",
+            "footer": "Economia de papel calibrada"
+          },
+          {
+            "code": "MOD_02",
+            "icon": "lucide:network",
+            "title": "Compatibilidade Epson e Star",
+            "desc": "Suporte nativo aos protocolos ESC/POS e StarPRNT em 58mm e 80mm. Compatível com interfaces USB, Serial RS-232, Ethernet LAN e Wi-Fi com autodetecção de periféricos.",
+            "footer": "Zero-Config Plug-and-Play"
+          },
+          {
+            "code": "MOD_03",
+            "icon": "lucide:refresh-cw",
+            "title": "Impressão Automática e Resiliência",
+            "desc": "Disparo instantâneo após confirmação no guichê. Se a impressora ficar sem papel ou o cabo desconectar, o gestor retém a fila com 3 tentativas exponenciais garantindo não duplicar tickets.",
+            "footer": "Idempotência de transação"
+          },
+          {
+            "code": "MOD_04",
+            "icon": "lucide:qrcode",
+            "title": "Código QR Criptográfico Único",
+            "desc": "Cada comprovante emitido gera uma assinatura hash SHA-256 única vinculada ao banco de dados central. O apostador escaneia com qualquer smartphone padrão sem baixar apps auxiliares.",
+            "footer": "Assinatura anti-adulteração"
+          }
+        ],
+        "wide": {
+          "code": "MOD_05",
+          "icon": "lucide:shield",
+          "title": "Portal de Verificação Pública Escalonada",
+          "desc": "O QR oferece duas visões conforme os privilégios de quem o escaneia:",
+          "levels": [
+            {
+              "title": "NÍVEL 1: CLIENTES PÚBLICOS",
+              "desc": "Visualizam status oficial ao vivo (Em Corrida / Ganhador / Não Premiado / Pago), tempo estimado para liquidação e detalhe dos dividendos oficiais."
+            },
+            {
+              "title": "NÍVEL 2: CAIXAS & AUDITORES",
+              "desc": "Ao fazer login, o caixa acessa a auditoria contábil completa, detalhamento de comissões, terminal de origem e botão de pagamento com hash de liquidação."
+            }
+          ],
+          "footer": "Camada dupla de acesso tokenizada"
+        }
+      },
+      "flow": {
+        "kicker": "END-TO-END OPERATIONAL PIPELINE",
+        "title": "Fluxo de Experiência: Apostador vs Operador",
+        "desc": "Como a velocidade no balcão, a tranquilidade do jogador na sala e o controle antifraude na tesouraria se interconectam.",
+        "steps": [
+          {
+            "num": "01",
+            "badge": "0.8 SEG",
+            "title": "Venda no Guichê",
+            "desc": "O caixa insere a jogada com atalhos de teclado numérico. A BetKit processa a aposta, gera o ticket e dispara o auto-cortador térmico imediatamente.",
+            "icon": "lucide:zap",
+            "footer": "Spooler background",
+            "tone": "primary"
+          },
+          {
+            "num": "02",
+            "badge": "INSTANTÁNEO",
+            "title": "Escaneamento Móvel QR",
+            "desc": "O jogador não precisa consultar telas distantes. Abre a câmera do celular, foca o bilhete e acessa a ficha dinâmica da corrida.",
+            "icon": "lucide:scan-line",
+            "footer": "Sem app necessário",
+            "tone": "default"
+          },
+          {
+            "num": "03",
+            "badge": "TIEMPO REAL",
+            "title": "Resultados ao Vivo",
+            "desc": "Assim que o comissariado oficializa a ordem de chegada no hipódromo, o portal atualiza o status do ticket calculando o dividendo a receber.",
+            "icon": "lucide:refresh-cw",
+            "footer": "Pari-Mutuel Feed",
+            "tone": "default"
+          },
+          {
+            "num": "04",
+            "badge": "100% SEGURO",
+            "title": "Pagamento no Caixa",
+            "desc": "O caixa escaneia o QR. A BetKit valida o hash, cancela o cupom e autoriza a saída. Impossível cobrar bilhetes clonados ou já liquidados.",
+            "icon": "lucide:shield",
+            "footer": "Zero bilhetes gêmeos",
+            "tone": "primary"
+          }
+        ],
+        "diagram": {
+          "label": "HARDWARE LAYER SPECIFICATION",
+          "title": "Diagrama de Conexão do Guichê e Servidor Central",
+          "endpoint": "SECURE ENDPOINT / TLS 1.3"
+        }
+      },
+      "guarantee": {
+        "kicker": "GARANTIA DE COMPATIBILIDADE TOTAL",
+        "title": "Você tem impressoras atuais nas suas filiais?",
+        "desc": "Homologamos seu parque de impressoras existente em menos de 24 horas sem trocar seu hardware. Sem compras adicionais ou descarte dos seus equipamentos operacionais no guichê.",
+        "ctaDemo": "SOLICITAR DEMO DE IMPRESSÃO E HARDWARE",
+        "ctaWhatsapp": "WHATSAPP SUPORTE TÉCNICO"
+      },
+      "title": "Impressão de Tickets",
+      "desc": "Tickets impressos com código QR — profissionais e verificáveis"
+    },
+    "whatsapp": {
+      "title": "Apostas por WhatsApp",
+      "desc": "Venda apostas por WhatsApp com IA conversacional, conectada ao seu caixa."
+    },
+    "pollas": {
+      "title": "Pollas hípicas",
+      "desc": "Especiais, nacionais e combinadas com poços acumulados."
+    }
+  },
+  "pricingPage": {
+    "title": "Comece grátis. Pague só quando faturar.",
+    "subtitle": "Sem mensalidade fixa. Sem contratos. Sem surpresas. A BetKit cobra uma pequena comissão sobre o volume de apostas da sua agência. Se não apostar, não paga. Se faturar muito, paga um pouco — mas ganha muito mais.",
+    "badge": "MODELO DE RECEITA COMPARTILHADA · ZERO CUSTOS FIXOS",
+    "titleStart": "Comece grátis.",
+    "titleHighlight": "Pague só",
+    "titleAfter": " QUANDO FATURAR.",
+    "microMetrics": [
+      {
+        "label": "Setup inicial",
+        "value": "$0 USD"
+      },
+      {
+        "label": "Período de teste",
+        "value": "30 dias completos"
+      },
+      {
+        "label": "Permanência",
+        "value": "Sem contratos"
+      },
+      {
+        "label": "Modelo de cobrança",
+        "value": "Micro-comissão por aposta"
+      }
+    ],
+    "steps": [
+      {
+        "title": "Primeiro mês grátis",
+        "desc": "Experimente tudo sem limites. Sem cartão de crédito. Sem compromisso."
+      },
+      {
+        "title": "Após o mês grátis",
+        "desc": "Você paga apenas uma comissão por transação sobre o volume de apostas processadas."
+      },
+      {
+        "title": "Cresça sem limites",
+        "desc": "Quanto mais apostas, mais você fatura. A comissão se mantém baixa porque seu volume cresce."
+      }
+    ],
+    "table": {
+      "headers": [
+        "Funcionalidade",
+        "O que significa para você"
+      ],
+      "rows": [
+        [
+          "Sem mensalidade fixa",
+          "Você não paga por 'estar registrado' — paga por operar"
+        ],
+        [
+          "Comissão por transação",
+          "Cada aposta processada gera uma pequena comissão — sem custos ocultos"
+        ],
+        [
+          "Sem contratos",
+          "Saia quando quiser. Sem penalidades, sem letras miúdas"
+        ],
+        [
+          "Sem surpresas",
+          "Tudo é calculado automaticamente — você vê ex quanto deve no painel"
+        ],
+        [
+          "Escala com seu negócio",
+          "Se sua agência crescer, seu custo não dispara — a comissão por unidade diminui com o volume"
+        ],
+        [
+          "Primeiro mês grátis",
+          "30 dias para experimentar tudo. Sem cartão. Sem compromisso."
+        ]
+      ]
+    },
+    "bodyText": "A maioria dos softwares de apostas cobra uma mensalidade fixa — não importa se você vende 10 apostas ou 10.000. A BetKit é diferente: cobramos uma pequena comissão em cada transação que você processa. Se sua agência não abriu um mês, você não paga nada. Se teve um mês incrível, paga um pouco mais — mas ganha muito mais. E o primeiro mês? Grátis. Totalmente grátis.",
+    "cta": "Experimente grátis por 30 dias — sem cartão de crédito",
+    "basePlan": "Plano base",
+    "masterTitle": "Tudo incluído. Nada fixo.",
+    "freeBadge": "30 DIAS 100% GRÁTIS",
+    "stepsTitle": "Como funciona",
+    "tableTitle": "O que você paga. O que você não paga.",
+    "bodyKicker": "POR QUE É DIFERENTE",
+    "closingTitle": "Comece grátis. Opere sem custos fixos.",
+    "closingDesc": "Ative seu plano base em minutos e pague só quando sua agência gera volume. Sem cartão, sem contrato, sem instalação.",
+    "payOnly": "Você paga só quando sua Agência de Apostas gera volume de apostas. Sem custos fixos, sem surpresas.",
+    "tryFree30": "Experimente grátis por 30 dias",
+    "masterBadge": "Plano Rede Vende-Paga OS",
+    "masterEdition": "LATAM EDITION",
+    "masterFeatures": [
+      {
+        "title": "Caixas e Bilheterias Ilimitados",
+        "sub": "Sem cobrança por terminal ou tela"
+      },
+      {
+        "title": "60 Modalidades de Aposta",
+        "sub": "Polla, Exacta, Trifecta, Pick 4, etc."
+      },
+      {
+        "title": "Ticket Térmico Cripto SHA-256",
+        "sub": "Impressão instantânea"
+      },
+      {
+        "title": "Concierge WhatsApp VIP 24/7",
+        "sub": "Suporte direto em corridas noturnas"
+      },
+      {
+        "title": "Sincronização Multi-Pista",
+        "sub": "Palermo, San Isidro, Maroñas, USA"
+      },
+      {
+        "title": "Auditoria em Tempo Real",
+        "sub": "Controle total de caixa e fugas"
+      }
+    ],
+    "scheduleLabel": "Detalhamento da comissão",
+    "scheduleModel": "Modelo de cobrança",
+    "scheduleModelValue": "Micro-comissão por transação",
+    "scheduleTicket": "Custo por ticket emitido",
+    "scheduleTicketValue": "$0.00",
+    "scheduleVoid": "Custo de cancelamento ou void",
+    "scheduleVoidValue": "$0.00",
+    "scheduleUpdate": "Cobrança de atualização do servidor",
+    "scheduleUpdateValue": "Incluído para sempre",
+    "masterCta": "Ativar 30 Dias de Teste",
+    "masterLockNote": "Sem cartão de crédito · Instalação remota em 20 minutos",
+    "simulatorKicker": "Simulador de rentabilidade hípica",
+    "simulatorTitle": "Calcule sua escala e recuperação de auditorias",
+    "simulatorDesc": "Quanto maior o volume processado pela sua agência ou rede de vendedores de apostas, menor é o custo. Além disso, você elimina perdas com bilhetes manuais.",
+    "simulatorVolume": "Volume mensal apostado (GGR da agência)",
+    "simulatorVolumeSuffix": "USD / mês",
+    "simulatorModel": "Modelo de cobrança",
+    "simulatorModelValue": "Micro-comissão por transação",
+    "simulatorModelHint": "Escala decrescente transparente",
+    "simulatorCost": "Custo operacional estimado",
+    "simulatorCostHint": "Deduzido em tempo real por corrida",
+    "simulatorSavings": "Economia em auditorias e fugas",
+    "simulatorSavingsHint": "Recuperação por zero erros manuais",
+    "simulatorImpact": {
+      "title": "Impacto líquido:",
+      "sub": "A precisão milimétrica do algoritmo pari-mutuel e os códigos QR anti-duplicação cobrem com folga o custo do sistema desde o primeiro fim de semana de corridas."
+    },
+    "compareKicker": "Controle vs obsolescência",
+    "compareTitle": "BetKit OS frente aos sistemas em DOS e planilhas",
+    "compareDesc": "Agências que ainda operam em computadores locais com software arcaico perdem dinheiro em discrepâncias não detectadas.",
+    "compareColCriterion": "Critério operacional",
+    "compareColLegacy": "Sistemas DOS / Emuladores",
+    "compareColBetkit": "BetKit Turf OS",
+    "compareRows": [
+      {
+        "criterion": "Custos fixos mensais",
+        "legacySub": "Mesmo com hipódromos parados",
+        "legacy": "Mensalidade fixa",
+        "betkit": "$0.00 USD (Somente sucesso)"
+      },
+      {
+        "criterion": "Limites de terminais",
+        "legacySub": "Escalabilidade de caixas",
+        "legacy": "Cobrança extra por PC/Caixa",
+        "betkit": "Caixas 100% ilimitados"
+      },
+      {
+        "criterion": "Fugas contábeis",
+        "legacySub": "Fraude e bilhetes cobrados 2 vezes",
+        "legacy": "Alta vulnerabilidade manual",
+        "betkit": "Validação QR SHA-256"
+      },
+      {
+        "criterion": "Suporte durante corridas",
+        "legacySub": "Resolução de quedas ao vivo",
+        "legacy": "Tickets de suporte lentos",
+        "betkit": "Mesa VIP WhatsApp ao vivo"
+      }
+    ],
+    "faqKicker": "Transparência total",
+    "faqTitle": "Perguntas frequentes de banqueiros e operadores",
+    "faqDesc": "Respostas diretas, sem rodeios comerciais nem letras miúdas.",
+    "faqItems": [
+      {
+        "q": "O que acontece se chover ou uma jornada hípica for cancelada?",
+        "a": "Se não houver corridas ou o programa for suspenso por mau tempo, seu custo de uso é exatamente $0.00 USD. Você não paga nenhuma mensalidade, manutenção ou hospedagem. Nosso modelo é 100% de risco compartilhado."
+      },
+      {
+        "q": "Preciso comprar hardware ou terminais especiais?",
+        "a": "Não. O BetKit Turf OS é agnóstico: funciona em qualquer computador padrão com Windows, Linux, tablets Android ou iPad. É compatível com qualquer impressora térmica ESC/POS de 58mm ou 80mm conectada por USB ou rede local."
+      },
+      {
+        "q": "Como vocês liquidam os prêmios e retenções da banca?",
+        "a": "O motor calcula automaticamente o takeout regulatório (retenção do organizador) de cada hipódromo e aplica dividendos pari-mutuel instantaneamente ao oficializar o placar. Seu caixa fecha com um relatório de auditoria consolidado ao centavo."
+      },
+      {
+        "q": "Quanto tempo demora a instalação de uma agência?",
+        "a": "A ativação da sua conta central leva menos de 10 minutos. Nossa equipe de suporte técnico acompanha via WhatsApp ou TeamViewer/AnyDesk para configurar as impressoras térmicas e habilitar seus caixas em uma única tarde."
+      }
+    ],
+    "bannerKicker": "CANAL DIRETO PARA DONOS DE AGÊNCIA E REDES",
+    "bannerTitle": "Você gerencia mais de 10 agências ou sub-agentes?",
+    "bannerDesc": "Agende uma chamada de auditoria técnica com nossos engenheiros de cálculo. Projetamos estruturas de comissão sob medida para redes de alto volume na Argentina, Uruguai, Venezuela, Chile e América Central.",
+    "bannerWhatsapp": "Falar no WhatsApp",
+    "bannerDemo": "Solicitar demo ao vivo",
+    "subtitleBefore": "Se chover, reuniões são suspensas ou a pista adia a jornada, seu custo de software é exatamente",
+    "subtitleChip": "$0.00 USD",
+    "subtitleAfter": "Alinhamento absoluto com o baixista.",
+    "telemetry": {
+      "label": "MODELO TRANSPARENTE · GANHO COMPARTILHADO",
+      "regions": "AR · UY · VE · CL · MX · PE · PY",
+      "liquidation": "SEM MENSALIDADE FIXA",
+      "contract": "PRIMEIRO MÊS GRÁTIS"
+    }
+  },
+  "demoPage": {
+    "title": "Solicite uma demo",
+    "desc": "Mostramos a BetKit ao vivo, com dados reais de uma operação de Vende Paga: o guichê do caixa, o painel do banqueiro e o painel do vendedor.",
+    "telemetry": {
+      "ws": "WebSocket Sandbox: Conectado",
+      "latency": "Latência de Rede: 18ms (BOG / BUE / CCS / SCL)",
+      "slot": "Slot Ativo: 15 Minutos",
+      "engine": "Engine v4.2.8"
+    },
+    "hero": {
+      "badge": "DEMONSTRAÇÃO GUIADA · AMBIENTE AO VIVO",
+      "ref": "Ref: BK-DEMO-LIVE-PROD",
+      "title": "Solicite uma demo",
+      "desc": "Mostramos a BetKit ao vivo, com dados reais de uma operação de Vende Paga: o guichê do caixa, o painel do banqueiro e o painel do vendedor.",
+      "ctaPrimary": "Solicite uma demo",
+      "ctaSecondary": "Ver preços"
+    },
+    "form": {
+      "title": "Terminal de Registro de Operador",
+      "badge": "LATAM-DIRECT",
+      "desc": "Informe os dados da sua rede ou guichês para atribuir um engenheiro de operações à sua sessão ao vivo.",
+      "name": "Nome e Sobrenome *",
+      "namePh": "Ex.: Marcelo Benítez",
+      "email": "E-mail Corporativo *",
+      "emailPh": "m.benitez{'@'}operacion.com",
+      "whatsapp": "Número de WhatsApp (com seletor de país LATAM) *",
+      "whatsappPh": "11 4590 8821",
+      "countries": [
+        {
+          "value": "+54",
+          "label": "🇦🇷 +54 (AR)"
+        },
+        {
+          "value": "+58",
+          "label": "🇻🇪 +58 (VE)"
+        },
+        {
+          "value": "+56",
+          "label": "🇨🇱 +56 (CL)"
+        },
+        {
+          "value": "+57",
+          "label": "🇨🇴 +57 (CO)"
+        },
+        {
+          "value": "+51",
+          "label": "🇵🇪 +51 (PE)"
+        },
+        {
+          "value": "+598",
+          "label": "🇺🇾 +598 (UY)"
+        },
+        {
+          "value": "+507",
+          "label": "🇵🇦 +507 (PA)"
+        },
+        {
+          "value": "+52",
+          "label": "🇲🇽 +52 (MX)"
+        },
+        {
+          "value": "+1",
+          "label": "🇩🇴 +1 (DO)"
+        }
+      ],
+      "operationType": "Tipo de Operação *",
+      "operationPlaceholder": "Selecionar perfil...",
+      "operationOptions": [
+        "Banqueiro",
+        "Concessionário de Guichês",
+        "Dono de Filiais",
+        "Vendedor de Rede"
+      ],
+      "terminals": "Quantidade de guichês / filiais atuais *",
+      "terminalsPlaceholder": "Faixa de terminais...",
+      "terminalsOptions": [
+        "1 - 5 guichês",
+        "6 - 20 guichês",
+        "20 - 50 guichês",
+        "+50 guichês (Rede Atacadista)"
+      ],
+      "racetracks": "Hipódromos habituais de operação *",
+      "racetracksPh": "Ex.: San Isidro, Palermo, La Rinconada, Gulfstream Park, Chile",
+      "thermal": "Quero testar a compatibilidade com minhas impressoras térmicas atuais (Epson, Star Micronics, Bixolon, Custom ou genéricas ESC/POS).",
+      "submit": "Agendar Demo Guiada de 15 Minutos",
+      "noteTitle": "Aviso importante:",
+      "note": "No momento não publicamos acessos de demonstração. Peça sua demo personalizada e coordenamos com você.",
+      "feedback": "SOLICITAÇÃO TRANSMITIDA. ATRIBUINDO SESSÃO COM ESPECIALISTA TURF OS..."
+    },
+    "includes": {
+      "title": "O que a demo inclui",
+      "badge": "4 Módulos ao Vivo",
+      "items": [
+        {
+          "icon": "lucide:zap",
+          "title": "1. Guichê em tempo real",
+          "badge": "< 0,8s Latência",
+          "desc": "Venda de apostas, cotações e estados de corrida via WebSocket em menos de 0,8s.",
+          "footerL": "SOCKET://TURF-FEED.STREAM",
+          "footerR": "STATUS: PUSH_ACTIVE",
+          "footerRTone": "primary"
+        },
+        {
+          "icon": "lucide:calculator",
+          "title": "2. Motor de premiações",
+          "badge": "Pari-Mutuel & Fixo",
+          "desc": "Regras por hipódromo, tetos por grupo e simulador ao vivo.",
+          "footerL": "TETO EXACTA: $500.000 USD",
+          "footerR": "REGRAS: HSI / VNZ / US",
+          "footerRTone": "default"
+        },
+        {
+          "icon": "lucide:scan-line",
+          "title": "3. Impressão com QR",
+          "badge": "SHA-256 Sign",
+          "desc": "Tickets verificáveis em impressoras térmicas Epson, Star e Bixolon com assinatura SHA-256.",
+          "footerL": "ESC/POS DRIVERLESS RAW",
+          "footerR": "VALIDAÇÃO: 0,12s",
+          "footerRTone": "default"
+        },
+        {
+          "icon": "lucide:shield-user",
+          "title": "4. Painéis por papel",
+          "badge": "Multi-Nível",
+          "desc": "Banqueiro, caixa e vendedor — cada um com sua visão especializada do negócio e controle de risco.",
+          "footerL": "PERFIS: RISK-CTRL / POS / BANK",
+          "footerR": "AUDIT READY",
+          "footerRTone": "primary"
+        }
+      ],
+      "ticket": {
+        "label": "Amostra de Ticket Térmico Digital",
+        "id": "#BET-88492-HSI",
+        "track": "SAN ISIDRO · CORRIDA 07",
+        "time": "18:30 GMT-3",
+        "bet": "TRIFECTA DIRETA: 4 - 8 - 2",
+        "amount": "$150,00",
+        "hash": "HASH: 8f4e22...c10b",
+        "exp": "EXP: 30 DIAS"
+      }
+    },
+    "immersion": {
+      "kicker": "Hardware & Operação no Guichê",
+      "title": "Desenhado para o ritmo real do balcão turf",
+      "desc": "Não simulamos em apresentações de PowerPoint. Nossa demo roda nas mesmas condições que seus caixas enfrentam aos sábados e domingos, 3 minutos antes do chamado à partida.",
+      "stats": [
+        {
+          "value": "0 Atraso",
+          "label": "Impressão térmica contínua"
+        },
+        {
+          "value": "Modo Offline",
+          "label": "Buffer local com sync seguro"
+        }
+      ],
+      "cards": [
+        {
+          "title": "Ponto de Venda POS",
+          "sub": "Epson TM-T88 / Star"
+        },
+        {
+          "title": "Matriz de Cotações Turf",
+          "sub": "Multi-Pistas Simultâneas"
+        }
+      ]
+    },
+    "trust": {
+      "pillars": [
+        {
+          "icon": "lucide:gauge",
+          "kicker": "Implantação Sem Pausas",
+          "title": "Configuração remota em menos de 48 horas sem interromper as operações do fim de semana.",
+          "desc": "Migração de bases de clientes, conciliação de saldos de caixas e homologação de impressoras térmicas em paralelo à sua operação corrente. Sem quedas em dias de clássicos.",
+          "m1v": "48 HS",
+          "m1l": "Garantia Onboarding",
+          "m2v": "0 DOWNTIME",
+          "m2l": "Em fins de semana"
+        },
+        {
+          "icon": "lucide:badge-check",
+          "kicker": "Infraestrutura e Suporte",
+          "title": "SLA 99,99%, suporte direto por WhatsApp e engenheiros dedicados na LATAM.",
+          "desc": "Atendimento direto sem bots ou tickets intermináveis. Mesa de operações técnica em fusos-chave (GMT-3 a GMT-5) durante todas as jornadas hípicas.",
+          "m1v": "99,99%",
+          "m1l": "SLA Contratual",
+          "m2v": "24/7 WHATSAPP",
+          "m2l": "Suporte Operacional Direto"
+        }
+      ],
+      "feedsLabel": "Feeds Homologados ao Vivo",
+      "feeds": [
+        "SAN ISIDRO",
+        "PALERMO",
+        "LA PLATA",
+        "LA RINCONADA",
+        "CLUB HÍPICO",
+        "GULFSTREAM"
+      ],
+      "feedsMore": "+45 INTERNACIONAIS"
+    }
+  },
+  "linksPage": {
+    "bio": "Multi-filial, multi-moeda, prêmios configuráveis. {highlight}",
+    "bioHighlight": "Sem mensalidade — pague só quando faturar.",
+    "items": [
+      {
+        "icon": "🚀",
+        "label": "Experimente grátis 30 dias",
+        "micro": "Sem cartão de crédito",
+        "href": "/pricing"
+      },
+      {
+        "icon": "👀",
+        "label": "Ver demo agora",
+        "micro": "Entre com nossas contas de teste",
+        "href": "/demo"
+      },
+      {
+        "icon": "💼",
+        "label": "Ser vendedor",
+        "micro": "Ganhe comissões recorrentes",
+        "href": "/sellers"
+      },
+      {
+        "icon": "💬",
+        "label": "WhatsApp",
+        "micro": "Respondemos em minutos",
+        "href": "#"
+      },
+      {
+        "icon": "📸",
+        "label": "Instagram",
+        "micro": "Novidades e capturas do produto",
+        "href": "#"
+      },
+      {
+        "icon": "🎵",
+        "label": "TikTok",
+        "micro": "Dicas para gerenciar agências de apostas",
+        "href": "#"
+      }
+    ]
+  },
+  "softwarePage": {
+    "title": "Software para Agências de Apostas",
+    "desc": "Uma agência de apostas (Vende Paga) é uma operação de apostas hípicas que opera em hipódromos e corridas de cavalos. Gerencia tickets, cálculos de prêmios, pagamentos a clientes e conciliações de caixa. A BetKit é o software projetado especificamente para esse tipo de operação.",
+    "features": [
+      {
+        "title": "Multi-filial",
+        "desc": "Gerencie todas as suas agências em um único painel"
+      },
+      {
+        "title": "60 tipos de aposta",
+        "desc": "A variedade mais completa do mercado LATAM"
+      },
+      {
+        "title": "Sem mensalidade",
+        "desc": "Pague só quando faturar — zero risco"
+      },
+      {
+        "title": "Web + Desktop",
+        "desc": "Funciona no navegador e como app desktop"
+      }
+    ],
+    "cta": "Comece grátis por 30 dias"
+  },
+  "blogPage": {
+    "title": "Blog",
+    "subtitle": "Artigos de suporte, guias e novidades da BetKit.",
+    "emptyState": "Em breve publicaremos artigos sobre gestão de agências de apostas, dicas de operação e novidades da plataforma.",
+    "comingSoon": "Em breve",
+    "exampleArticle": "Artigo de exemplo",
+    "exampleDesc": "Este artigo está em preparação. Em breve publicaremos conteúdo sobre gestão de agências de apostas e dicas de operação."
+  },
+  "contactPage": {
+    "title": "Contato",
+    "subtitle": "Entre em contato com a equipe BetKit.",
+    "emailLabel": "E-mail geral",
+    "whatsappLabel": "WhatsApp",
+    "whatsappValue": "+54 9 11 4092-TURF",
+    "supportLabel": "Suporte",
+    "responseTime": "Respondemos em menos de 24 horas úteis.",
+    "formTitle": "Fale conosco",
+    "formDesc": "Preencha o formulário e respondemos em menos de 24 horas úteis.",
+    "form": {
+      "name": "Nome completo",
+      "namePh": "Seu nome",
+      "email": "E-mail",
+      "emailPh": "voce{'@'}email.com",
+      "subject": "Assunto",
+      "subjectPh": "Ex. Quero uma demo",
+      "message": "Mensagem",
+      "messagePh": "Como podemos ajudar?",
+      "submit": "Enviar mensagem",
+      "required": "obrigatório",
+      "mailNote": "Ao enviar, seu cliente de e-mail abre com a mensagem pronta para enviar."
+    }
+  },
+  "banquerosPage": {
+    "badge": "BANQUEIROS E CAIXAS",
+    "title": "Você só paga quando vende",
+    "subtitle": "Sem mensalidade fixa e com o primeiro mês grátis. BetKit é a plataforma completa para sua Vende Paga: controle todas as suas filiais, ajude seus caixas a vender mais rápido e cresça sabendo que seu custo acompanha suas vendas.",
+    "ctaPrimary": "Teste grátis por 30 dias",
+    "ctaSecondary": "Solicite uma demo",
+    "microbadge": "IMPLANTAÇÃO EM 48H SEM PAUSAR SUAS CORRIDAS · COMPATÍVEL COM IMPRESSORAS EPSON/STAR",
+    "hardware": {
+      "kicker": "Hardware & Terminais",
+      "title": "Terminais Duais de Alta Densidade",
+      "latency": "Latência de impressão: 0,8s",
+      "overlayTitle": "Infraestrutura Vende Paga",
+      "overlaySub": "Ponto de Venda POS Industrial + Monitor Central do Banqueiro",
+      "chips": [
+        "Thermal buffer 100% OK",
+        "SHA-256 Engine"
+      ]
+    },
+    "statsLabel": "O QUE DÁ SUSTENTAÇÃO AO SISTEMA",
+    "statsKicker": "Auditoria de Desempenho",
+    "statsUptime": "Arquitetura Certificada · 99,99% Uptime",
+    "stats": [
+      {
+        "number": "67",
+        "label": "Tipos de aposta",
+        "desc": "Todas as jogadas que o apostador pede, em um único guichê",
+        "icon": "lucide:trophy",
+        "tone": "primary",
+        "kicker": "CATÁLOGO HÍPICO"
+      },
+      {
+        "number": "9",
+        "label": "Países LATAM com suporte",
+        "desc": "AR · VE · CL · CO · PE · UY · PA · MX · DO",
+        "icon": "lucide:globe",
+        "tone": "secondary",
+        "kicker": "COBERTURA REGIONAL"
+      },
+      {
+        "number": "Multi",
+        "label": "Moedas por caixa",
+        "desc": "Um mesmo local, várias moedas conforme o perfil de cada vendedor",
+        "icon": "lucide:repeat",
+        "tone": "tertiary",
+        "kicker": "MULTI-MOEDA"
+      },
+      {
+        "number": "Offline",
+        "label": "Sem cortes de venda",
+        "desc": "O guichê continua vendendo mesmo se a conexão cair",
+        "icon": "lucide:wifi-off",
+        "tone": "primary",
+        "kicker": "RESILIÊNCIA CRÍTICA"
+      }
+    ],
+    "countries": {
+      "kicker": "REDE REGIONAL HOMOLOGADA",
+      "title": "Operamos em toda a América Latina",
+      "badge": "9 Países Ativos · Roteamento Local",
+      "items": [
+        {
+          "flag": "🇦🇷",
+          "name": "Argentina",
+          "code": "+54 (AR)",
+          "badge": "Homologado",
+          "tone": "tertiary"
+        },
+        {
+          "flag": "🇻🇪",
+          "name": "Venezuela",
+          "code": "+58 (VE)",
+          "badge": "Feed Oficial",
+          "tone": "primary"
+        },
+        {
+          "flag": "🇨🇱",
+          "name": "Chile",
+          "code": "+56 (CL)",
+          "badge": "SLA 99.9%",
+          "tone": "secondary"
+        },
+        {
+          "flag": "🇨🇴",
+          "name": "Colombia",
+          "code": "+57 (CO)",
+          "badge": "Homologado",
+          "tone": "tertiary"
+        },
+        {
+          "flag": "🇵🇪",
+          "name": "Perú",
+          "code": "+51 (PE)",
+          "badge": "Feed Oficial",
+          "tone": "primary"
+        },
+        {
+          "flag": "🇺🇾",
+          "name": "Uruguay",
+          "code": "+598 (UY)",
+          "badge": "SLA 99.9%",
+          "tone": "secondary"
+        },
+        {
+          "flag": "🇵🇦",
+          "name": "Panamá",
+          "code": "+507 (PA)",
+          "badge": "Homologado",
+          "tone": "tertiary"
+        },
+        {
+          "flag": "🇲🇽",
+          "name": "México",
+          "code": "+52 (MX)",
+          "badge": "Feed Oficial",
+          "tone": "primary"
+        },
+        {
+          "flag": "🇩🇴",
+          "name": "Dominicana",
+          "code": "+1 (DO)",
+          "badge": "SLA 99.9%",
+          "tone": "secondary"
+        }
+      ]
+    },
+    "dual": {
+      "kicker": "Sinergia Operacional",
+      "title": "Desenhado para os dois lados do balcão",
+      "desc": "O Banqueiro governa a rentabilidade global enquanto o Caixa despacha bilhetes em velocidade recorde sem fricção.",
+      "banker": {
+        "label": "PARA O BANQUEIRO",
+        "title": "Controle total do seu estabelecimento",
+        "desc": "Você é o dono do negócio. A BetKit dá visibilidade completa: cada agência, cada caixa e cada ticket em um único painel, com a tranquilidade de que sua plataforma cresce junto com suas vendas.",
+        "bullets": [
+          "Multi-filial em uma única conta: todas as suas agências, todos os seus caixas, em um só painel",
+          "Moeda por perfil de caixa: configure qual moeda cada vendedor opera e aceite ARS, USD, VEF, CLP no mesmo local",
+          "Motor de prêmios configurável com simulador ao vivo: você define as regras de pagamento",
+          "67 tipos de aposta nativos — tudo o que o apostador pede, sem perder venda",
+          "Dashboard por filial, ranking de caixas e alertas em tempo real",
+          "Contingência offline: se a internet cair, o guichê continua vendendo e tudo sincroniza ao voltar"
+        ],
+        "console": {
+          "label": "CONSOLE EXECUTIVA CENTRAL",
+          "currencyLabel": "Consolidado",
+          "currencies": [
+            "USD",
+            "ARS",
+            "VEF",
+            "CLP"
+          ],
+          "kpiLabel": "Consolidado da Rede (Hoje)",
+          "kpiValue": "$148.250,00",
+          "kpiUnit": "USD",
+          "marginLabel": "Margem de Retenção",
+          "marginValue": "16,85%",
+          "marginUnit": "TURF TAKE",
+          "auditLabel": "Auditoria de Agências & Moedas",
+          "agencies": [
+            {
+              "name": "Hipódromo Palermo (Agência 01)",
+              "currency": "ARS / USD",
+              "value": "$54.200,00 · 8 Caixas"
+            },
+            {
+              "name": "San Isidro Norte (Agência 04)",
+              "currency": "ARS",
+              "value": "$48.150,00 · 6 Caixas"
+            },
+            {
+              "name": "La Rinconada VIP (Agência 09)",
+              "currency": "VEF / USD",
+              "value": "$45.900,00 · 7 Caixas"
+            }
+          ],
+          "syncLabel": "Sincronização cloud a cada 250ms",
+          "closeBtn": "Fechamento Diário (PDF/XLSX)"
+        }
+      },
+      "cashier": {
+        "label": "PARA O CAIXA",
+        "title": "Velocidade no guichê",
+        "desc": "Você é quem atende o apostador todos os dias. O guichê da BetKit é desenhado para vender rápido e sem erros: pista, corrida, tipo de aposta e competidores em um único fluxo, mesmo sem internet.",
+        "bullets": [
+          "Venda em segundos: pista, corrida, tipo e competidores em um único fluxo",
+          "Escolha a moeda da aposta: cada caixa tem sua moeda configurada por perfil",
+          "Cotações e resultados em tempo real via WebSocket",
+          "Impressão térmica com QR verificável (Epson/Star, 58/80mm)",
+          "Contingência offline — o guichê nunca para",
+          "Fechamento de turno com um botão, sem calculadora"
+        ],
+        "terminal": {
+          "label": "TERMINAL DE GUICHÊ POS #03",
+          "currency": "MOEDA: USD ($)",
+          "status": "BUFFER OK",
+          "race": "CORRIDA 8",
+          "track": "SAN ISIDRO (ARG)",
+          "bet": "TRIFECTA BOX",
+          "picks": [
+            "#4 EL GRAN GUAPO",
+            "#8 REY BALTICO",
+            "#12 MISS RUNNER"
+          ],
+          "combosLabel": "Combinações: 6 · Valor base: $1,66 USD",
+          "totalLabel": "TOTAL: $10,00 USD",
+          "payBtn": "Cobrar e Imprimir (0,8s)",
+          "cancelBtn": "Anular / F9",
+          "ws": "WS: 18ms latency",
+          "hash": "Ticket SHA: a7f89d...01c4"
+        }
+      }
+    },
+    "matrix": {
+      "kicker": "MATRIZ DE CAPACIDADES",
+      "title": "Fluxo de Trabalho: Banqueiro vs Caixa",
+      "desc": "Separação clara de atribuições para evitar erros contábeis e blindar os guichês contra manipulações.",
+      "headers": [
+        "Dimensão",
+        "Papel do Banqueiro (Governança)",
+        "Papel do Caixa (Execução)"
+      ],
+      "rows": [
+        {
+          "dim": "Visibilidade e Controle",
+          "banker": "Consolidado integral de todas as filiais, volume apostado, comissões retidas e alertas ao vivo.",
+          "cashier": "Visão exclusiva do seu guichê ativo, dinheiro cobrado em caixa e tickets emitidos durante o turno."
+        },
+        {
+          "dim": "Regras de Premiação",
+          "banker": "Configuração do percentual de take (retenção), tabelas de pagamento, limites por bilhete e tetos máximos por jogada.",
+          "cashier": "Cálculo instantâneo automático. Sem intervenção manual em dividendos ou coeficientes."
+        },
+        {
+          "dim": "Operação de Guichê",
+          "banker": "Habilitação e bloqueio de terminais, atribuição de crédito flutuante e controle de chaves de acesso.",
+          "cashier": "Entrada tátil ou por teclado numérico rápido; despacho de tickets térmicos com QR em 0,8 segundos."
+        },
+        {
+          "dim": "Fechamento Contábil",
+          "banker": "Exportação em um clique de balanços fiscais consolidados, detalhamento de agências e relatórios PDF/Excel.",
+          "cashier": "Fechamento Z de turno em 1 passo: contagem física contra sistema, impressão de resumo do guichê e entrega."
+        },
+        {
+          "dim": "Segurança e Contingência",
+          "banker": "Auditoria de tickets anulados, histórico de IP por vendedor e autorização remota de prêmios especiais.",
+          "cashier": "Emissão sem interrupções com cache local criptografado (SHA-256) durante quedas momentâneas do provedor de internet."
+        }
+      ]
+    },
+    "closing": {
+      "pill": "IMPLEMENTAÇÃO IMEDIATA",
+      "title": "Seus números em tempo real. Sem Excel.",
+      "desc": "Cada filial, cada caixa e cada ticket — visíveis em um único painel, instantaneamente.",
+      "ctaPrimary": "Teste grátis por 30 dias",
+      "ctaSecondary": "Solicite uma demo",
+      "seeLabel": "Ver todas as funções:",
+      "links": [
+        {
+          "to": "/features/tipos-de-jugadas",
+          "label": "67 Tipos de Aposta"
+        },
+        {
+          "to": "/features/premiaciones",
+          "label": "Motor de Prêmios"
+        },
+        {
+          "to": "/features/multi-sucursal",
+          "label": "Multi-Filial"
+        },
+        {
+          "to": "/features/impresion",
+          "label": "Impressão de Tickets"
+        }
+      ]
+    },
+    "telemetry": {
+      "label": "REDE MULTI-AGÊNCIA · PAPÉIS OPERACIONAIS",
+      "regions": "AR · UY · VE · CL · MX · PE · PY",
+      "item1": "FECHAMENTO DIÁRIO AUTOMATIZADO",
+      "item2": "SEM CORTES DE VENDA"
+    }
+  },
+  "sellersPage": {
+    "telemetry": {
+      "label": "RECRUTAMENTO ABERTO Q2 2025",
+      "regions": "AR · UY · VE · CL · MX · PE · PY",
+      "liquidation": "LIQUIDAÇÕES TERÇA 10:00 UTC",
+      "contract": "CONTRATO REV-SHARE PERPÉTUO"
+    },
+    "hero": {
+      "badge": "PROGRAMA DE EXPANSÃO REGIONAL · LATAM",
+      "title": "Ganhe comissões recorrentes",
+      "titleHighlight": "oferecendo o software #1.",
+      "subtitle": "Adicione agências e casas de apostas de corrida de cavalos na sua região. Receba semanalmente por cada bilhete emitido e terminal ativo enquanto a equipe central da BetKit absorve o suporte técnico 24/7 e a infraestrutura em nuvem.",
+      "ctaPrimary": "Quero ser Parceiro Oficial",
+      "ctaSecondary": "Falar no WhatsApp",
+      "metrics": [
+        {
+          "value": "35%",
+          "label": "Revenue Share Fixo"
+        },
+        {
+          "value": "0 Reclamações",
+          "label": "Central de ajuda BetKit direta"
+        },
+        {
+          "value": "USDT / Local",
+          "label": "Pagamento Automático Semanal"
+        }
+      ],
+      "node": {
+        "label": "NÓ PARCEIRO ATIVO",
+        "sla": "SLA 99,98%",
+        "territoryLabel": "Território Atribuído",
+        "territory": "NORTE E LITORAL DE BUENOS AIRES",
+        "payoutLabel": "Liquidado este mês",
+        "payout": "$3.420,00 USDT",
+        "payoutTrend": "+18,4%"
+      }
+    },
+    "simulator": {
+      "kicker": "CALCULADORA DE PROJEÇÃO B2B",
+      "title": "Simule suas receitas mensais",
+      "desc": "Diferentemente de comissões pontuais, na BetKit você recebe um fee recorrente enquanto as agências continuarem emitindo bilhetes.",
+      "chip": "LIQUIDAÇÃO AUDITÁVIA BLOCKCHAIN OU SWIFT",
+      "agenciesLabel": "Agências ou Bancas Conectadas",
+      "agencies": [
+        {
+          "count": 3,
+          "label": "3 AGÊNCIA / STARTER"
+        },
+        {
+          "count": 8,
+          "label": "8 AGÊNCIAS / REGIONAL"
+        },
+        {
+          "count": 20,
+          "label": "20+ AG. / CONSÓRCIO"
+        }
+      ],
+      "volumeLabel": "Volume Médio Semanal por Agência",
+      "volumeMin": 4000,
+      "volumeMax": 35000,
+      "volumeStep": 1000,
+      "volumeSmall": "Agência Pequena ($4k/sem)",
+      "volumeLarge": "Banca Hípica Central ($35k+/sem)",
+      "commissionLabel": "Taxa de Comissão RevShare",
+      "commissionValue": "1,75%",
+      "commissionNote": "do GGR",
+      "frequencyLabel": "Frequência de Pagamento",
+      "frequencyValue": "Semanal",
+      "frequencyNote": "(Toda Segunda)",
+      "resultKicker": "RESUMO DA ESTIMAÇÃO",
+      "resultBadge": "LÍQUIDO DIRETO",
+      "resultLabel": "Receita Recorrente Líquida Estimada:",
+      "resultUnit": "USD / MÊS",
+      "weeklyLabel": "≈ {value} USD depositados por semana",
+      "terminalsLabel": "Terminais estimados ativos:",
+      "terminalsValue": "{count} telas / guichês",
+      "networkVolumeLabel": "Volume mensal da rede:",
+      "supportCostLabel": "Custo de suporte ou manutenção:",
+      "supportCostValue": "$0,00 (Coberto 100% pela BetKit)",
+      "cta": "Candidatar-me para estas zonas",
+      "footnote": "*Cálculo estimativo sobre margem de retenção pari-mutuel média da LATAM (18% - 22%). Os pagamentos são transferidos sem intermediários diretamente para sua carteira Tether (TRC20/ERC20) ou conta bancária."
+    },
+    "model": {
+      "kicker": "ARQUITETURA DA PARCERIA",
+      "title": "O modelo operacional em 4 etapas",
+      "desc": "Projetado para que você foque exclusivamente em abrir portas e apresentar o sistema em agências de confiança. Nós resolvemos o resto.",
+      "steps": [
+        {
+          "num": "01",
+          "icon": "lucide:clipboard-check",
+          "title": "Candidatura Expressa",
+          "desc": "Preencha o formulário. Validamos sua trajetória e área de influência comercial em menos de 24 horas úteis.",
+          "badge": "Validação < 24 Horas",
+          "badgeIcon": "lucide:timer",
+          "badgeTone": "text-tertiary"
+        },
+        {
+          "num": "02",
+          "icon": "lucide:monitor-smartphone",
+          "title": "30 Dias de Teste",
+          "desc": "Instalamos o software sem custo para suas bancas com acesso completo às 67 modalidades de apostas e simulcast.",
+          "badge": "Cero barreira de entrada",
+          "badgeIcon": "lucide:shield-check",
+          "badgeTone": "text-primary-container"
+        },
+        {
+          "num": "03",
+          "icon": "lucide:headset",
+          "title": "Suporte Central 24/7",
+          "desc": "A BetKit atende diretamente qualquer dúvida técnica, calibração de impressoras térmicas ou quedas de conectividade.",
+          "badge": "Cero chamadas para você",
+          "badgeIcon": "lucide:zap",
+          "badgeTone": "text-tertiary-fixed"
+        },
+        {
+          "num": "04",
+          "icon": "lucide:repeat",
+          "title": "Comissões Vitalícias",
+          "desc": "Suas comissões são creditadas semanalmente. Cada agência que você mantiver ativa continua gerando rendimentos recorrentes.",
+          "badge": "Liquidação Perpétua",
+          "badgeIcon": "lucide:lock",
+          "badgeTone": "text-primary-container"
+        }
+      ]
+    },
+    "panel": {
+      "kicker": "TRANSPARÊNCIA TOTAL",
+      "title": "Snapshot: seu painel de controle em tempo real",
+      "desc": "Audite ao vivo o volume de apostas registrado por cada uma das suas agências conectadas. Acesso por mobile ou desktop.",
+      "suiteName": "BETKIT PARTNER SUITE v4.2",
+      "suiteId": "ID: PTN-7809-LATAM",
+      "syncLabel": "Última sincro: 4 segundos atrás",
+      "statusLabel": "Status: Pagamentos em Dia",
+      "metrics": [
+        {
+          "label": "Agências na Rede",
+          "value": "12 Bancas",
+          "unit": "",
+          "delta": "+2 este mês",
+          "sub": "34 Terminais táteis sincronizados"
+        },
+        {
+          "label": "Volume Semanal na Rede",
+          "value": "$148.220",
+          "unit": "USD",
+          "delta": "▲ 14,8%",
+          "sub": "Corridas: Palermo, Rinconada, Maroñas"
+        },
+        {
+          "label": "Saldo Acumulado a Receber",
+          "value": "$2.593,85",
+          "unit": "USDT",
+          "delta": "",
+          "sub": "Liquidação programada: Segunda 10:00 AM"
+        }
+      ],
+      "table": {
+        "headers": [
+          "Agência Hípica / Ponto",
+          "Cidade / Região",
+          "Terminais",
+          "Volume Semanal",
+          "Sua Comissão (35% Líquido)",
+          "Status"
+        ],
+        "rows": [
+          [
+            "Agencia Palermo Turf Central",
+            "Buenos Aires, AR",
+            "6 unidades",
+            "$34.100 USD",
+            "$596,75 USDT",
+            "ONLINE"
+          ],
+          [
+            "Banca Hípica La Rinconada Express",
+            "Caracas, VE",
+            "4 unidades",
+            "$22.400 USD",
+            "$392,00 USDT",
+            "ONLINE"
+          ],
+          [
+            "Turf Center Maroñas Norte",
+            "Montevideo, UY",
+            "3 unidades",
+            "$18.900 USD",
+            "$330,75 USDT",
+            "ONLINE"
+          ]
+        ]
+      }
+    },
+    "formInfo": {
+      "badge": "PARCERIA B2B OFICIAL",
+      "title": "Candidate-se hoje como Parceiro Oficial",
+      "desc": "As vagas são atribuídas com exclusividade territorial com base na densidade de agências de corridas de cavalos na sua região. Deixe seus dados para agendar uma chamada de onboarding com nosso diretor de expansão regional.",
+      "guarantees": [
+        {
+          "icon": "lucide:shield-check",
+          "title": "Exclusividade Territorial Disponível",
+          "desc": "Bloqueamos novas agências na sua área para que todas fluam sob o seu código de rev-share."
+        },
+        {
+          "icon": "lucide:package-check",
+          "title": "Material de Vendas e Demos Prontos",
+          "desc": "Entregamos acessos demo funcionais para mostrar em tablets ou laptops aos donos das agências."
+        },
+        {
+          "icon": "lucide:wallet",
+          "title": "Sem Retenções Arbitrárias",
+          "desc": "Liquidações diretas em USDT, USDC ou transferência bancária local."
+        }
+      ]
+    },
+    "form": {
+      "header": "Formulário de Incorporação",
+      "stepLabel": "PASSO 1 DE 1",
+      "name": "Nome e Sobrenome",
+      "namePh": "Ex.: Carlos Mendoza",
+      "whatsapp": "WhatsApp Direto",
+      "whatsappPh": "+54 9 11 2345-6789",
+      "country": "País e Província / Estado",
+      "countryPh": "Ex.: Argentina, Santa Fe",
+      "agencies": "Agências que você poderia somar",
+      "agenciesOptions": [
+        {
+          "value": "1-3",
+          "label": "1 a 3 agências iniciais"
+        },
+        {
+          "value": "4-10",
+          "label": "4 a 10 agências (Rede regional)"
+        },
+        {
+          "value": "11-25",
+          "label": "11 a 25 agências (Consórcio hípico)"
+        },
+        {
+          "value": "25+",
+          "label": "Mais de 25 agências (Operador / Banca atacadista)"
+        }
+      ],
+      "experience": "Você tem vínculo atual com agências de corridas ou terminais?",
+      "experiencePh": "Ex.: Fornecemos insumos térmicos, sou agente hípico, tenho banca própria...",
+      "submit": "SOLICITAR INSCRIÇÃO IMEDIATA DE PARCEIRO",
+      "legalNote": "Ao enviar seus dados, você aceita o acordo de confidencialidade comercial da BetKit Corp.",
+      "successTitle": "Solicitação enviada!",
+      "successDesc": "Nossa equipe regional entrará em contato pelo WhatsApp em menos de 24 horas.",
+      "required": "obrigatório"
+    }
+  }
+}

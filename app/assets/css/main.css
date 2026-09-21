@@ -1,0 +1,140 @@
+@import 'tailwindcss';
+@import 'tw-animate-css';
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  /* === Fonts === */
+  --font-display: 'Archivo', ui-sans-serif, system-ui, sans-serif;
+  --font-body: 'Source Sans 3', ui-sans-serif, system-ui, sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, monospace;
+  --font-sans: 'Source Sans 3', ui-sans-serif, system-ui, sans-serif;
+
+  /* === Dark palette (Stitch tokens) === */
+  --color-dark-950: #090A0D;
+  --color-dark-900: #0D0E12;
+  --color-dark-850: #121318;
+  --color-dark-800: #181A22;
+  --color-dark-750: #1F222D;
+  --color-dark-700: #2B2E3C;
+  --color-dark-stroke: #262936;
+  --color-dark-stroke-subtle: #1B1D26;
+
+  /* === Brand accent === */
+  --color-brand-yellow: #FFC71A;
+  --color-brand-hover: #E5B215;
+  --color-brand-glow: rgba(255, 199, 26, 0.15);
+
+  /* === Semantic accents === */
+  --color-accent-emerald: #10B981;
+  --color-accent-cyan: #06B6D4;
+  --color-surface-elevated: #1F222D;
+
+  /* === Foreground helpers === */
+  --color-foreground: #E2E4E9;
+  --color-foreground-muted: #94A3B8;
+  --color-foreground-subtle: #CBD5E1;
+
+  /* === shadcn compat tokens === */
+  --color-background: #0D0E12;
+  --color-card: #121318;
+  --color-card-foreground: #E2E4E9;
+  --color-primary: #FFC71A;
+  --color-primary-foreground: #0D0E12;
+  --color-secondary: #262936;
+  --color-secondary-foreground: #E2E4E9;
+  --color-muted: #181A22;
+  --color-muted-foreground: #94A3B8;
+  --color-accent: #181A22;
+  --color-accent-foreground: #E2E4E9;
+  --color-destructive: #DC2626;
+  --color-destructive-foreground: #E2E4E9;
+  --color-border: #262936;
+  --color-input: #262936;
+  --color-ring: #FFC71A;
+  --color-success: #10B981;
+  --color-warning: #FFC71A;
+
+  /* === Stitch Design System (from stitch_betkit_platform_redesign) ===
+     These tokens are the source of truth for pricing.vue and any page
+     built from the Stitch mockup. They are intentionally different from
+     the site's shadcn tokens above (which are cool/azure); the Stitch
+     palette is neutral/warm (surface #131313, on-surface #E5E2E1). */
+  --color-surface: #131313;
+  --color-surface-dim: #131313;
+  --color-surface-bright: #3A3939;
+  --color-surface-container-lowest: #0E0E0E;
+  --color-surface-container-low: #1C1B1B;
+  --color-surface-container: #201F1F;
+  --color-surface-container-high: #2A2A2A;
+  --color-surface-container-highest: #353534;
+  --color-surface-variant: #353534;
+  --color-on-surface: #E5E2E1;
+  --color-on-surface-variant: #D2C5AC;
+  --color-on-background: #E5E2E1;
+  --color-outline: #9B8F78;
+  --color-outline-variant: #4F4632;
+  --color-primary-container: #FFC71A;
+  --color-on-primary-container: #6F5400;
+  --color-primary-fixed: #FFDF96;
+  --color-primary-fixed-dim: #F6BF08;
+  --color-on-primary-fixed: #251A00;
+  --color-on-primary-fixed-variant: #5A4400;
+  --color-secondary: #C8C5CB;
+  --color-on-secondary: #303034;
+  --color-secondary-container: #47464B;
+  --color-on-secondary-container: #B6B4B9;
+  --color-tertiary: #C0F4FF;
+  --color-tertiary-container: #01E3FF;
+  --color-on-tertiary-container: #00616E;
+  --color-on-tertiary-fixed: #001F25;
+  --color-tertiary-fixed: #9FEFFF;
+  --color-tertiary-fixed-dim: #00DAF5;
+  --color-error: #FFB4AB;
+  --color-error-container: #93000A;
+  --color-on-error: #690005;
+  --color-on-error-container: #FFDAD6;
+  --color-inverse-surface: #E5E2E1;
+  --color-inverse-on-surface: #313030;
+  --color-inverse-primary: #765A00;
+
+  /* === Radius (single site-wide scale, aligned to Stitch) ===
+     rounded   = 4px   (default)
+     sm        = 4px   (chips, small icons)
+     md        = 8px   (buttons, inputs, badges)
+     lg        = 12px  (inner cards, panels)
+     xl        = 16px  (large card containers)
+     2xl/3xl   = 20/24px kept as overflow guards only */
+  --radius-sm: 0.25rem;
+  --radius-md: 0.5rem;
+  --radius-lg: 0.75rem;
+  --radius-xl: 1rem;
+  --radius-2xl: 1.25rem;
+  --radius-3xl: 1.5rem;
+}
+
+@layer base {
+  *,
+  ::after,
+  ::before {
+    border-color: var(--color-border);
+  }
+  body {
+    color: var(--color-foreground);
+    background: var(--color-background);
+    font-family: var(--font-body);
+    font-size: 1rem;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+}
+
+/* === Ambient effects (from stitch_betkit_platform_redesign/home mockup) === */
+@utility hud-grid {
+  background-image: radial-gradient(rgba(255, 255, 255, 0.05) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+@utility glow-amber {
+  box-shadow: 0 0 35px -5px rgba(255, 199, 26, 0.18);
+}

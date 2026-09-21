@@ -1,0 +1,29 @@
+# BetKit
+> Software profesional para agencias de apuestas hípicas (Vende Pagas). Multi-sucursal, multi-moneda, 67 tipos de apuesta, sin mensualidad fija — pagás solo cuando facturás.
+
+## Product
+- BetKit gestiona múltiples sucursales desde una sola cuenta.
+- Cada sucursal opera en su propia moneda (VES, USD).
+- El motor de premios define reglas por hipódromo y por cantidad de competidores.
+- BetKit ofrece 67 tipos de apuesta y 6 estilos de juego.
+- El primer mes de BetKit es gratis. Después, pagás solo cuando facturás.
+- Los tickets se imprimen en impresoras térmicas con código QR verificable.
+- BetKit funciona en navegador y como app de escritorio (Electron).
+
+## URLs
+- [Home](https://betkit.com/): Gestiona tu Vende Paga con la plataforma más completa del mercado
+- [Features](https://betkit.com/features): Todo lo que necesitás para operar tu Vende Paga, en un solo software
+- [Multi-Sucursal](https://betkit.com/features/multi-sucursal): Administrá todas tus sucursales desde un solo lugar
+- [Motor de Premios](https://betkit.com/features/premiaciones): Configurá las reglas de premios exactamente como las necesitás
+- [Tipos de Apuesta](https://betkit.com/features/tipos-de-jugadas): 67 tipos de apuesta — la variedad más completa del mercado
+- [Impresión de Tickets](https://betkit.com/features/impresion): Tickets impresos con código QR — profesionales y verificables
+- [Pricing](https://betkit.com/pricing): Primer mes gratis + comisión por uso
+- [Demo](https://betkit.com/demo): Acceso directo a la aplicación con credenciales por rol
+- [Vendedores](https://betkit.com/vendedores): Ganá comisiones recurrentes ofreciendo BetKit a agencias de apuestas
+- [Links](https://betkit.com/links): Página de enlaces para redes sociales
+- [Software para Vende Pagas](https://betkit.com/software-para-vende-pagas): Cluster SEO — qué es un software para Vende Pagas
+- [Blog](https://betkit.com/blog): Artículos de soporte y guías
+- [Contacto](https://betkit.com/contacto): Ponete en contacto con el equipo de BetKit
+
+## Contact
+- Web: https://betkit.com/contacto
