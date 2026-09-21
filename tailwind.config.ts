@@ -1,9 +1,15 @@
-/** Minimal shim — real tokens live in app/assets/css/main.css via @theme inline. */
+/** Optimized Tailwind config for performance. */
 import type { Config } from 'tailwindcss'
 
 export default {
   darkMode: 'class',
   content: ['./app/**/*.{vue,ts,js}'],
+  // Optimize by disabling unused utilities
+  corePlugins: {
+    preflight: true, // Keep for consistent reset
+  },
+  // Enable JIT for minimal CSS output
+  mode: 'jit',
   theme: {
     extend: {
       fontFamily: {
@@ -12,8 +18,6 @@ export default {
         mono: ['JetBrains Mono', 'monospace'],
       },
       borderRadius: {
-        // Single site-wide radius scale, aligned to the Stitch reference.
-        // sm=4px md=8px lg=12px xl=16px (2xl/3xl kept as overflow guards).
         'none': '0',
         'sm': '0.25rem',
         'md': '0.5rem',
@@ -23,6 +27,10 @@ export default {
         '3xl': '1.5rem',
         'full': '9999px',
       },
+      animation: {
+        'spin': 'spin 1s linear infinite',
+      },
     },
   },
+  plugins: [],
 } satisfies Config

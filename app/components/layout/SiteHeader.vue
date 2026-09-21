@@ -11,28 +11,28 @@ const featuresMenu = [
 
 const open = ref(false)
 const dropdownRef = ref<HTMLElement | null>(null)
+const mobileOpen = ref(false)
 
-function onKeydown(event: KeyboardEvent) {
+// Store handlers for removal
+const keydownHandler = (event: KeyboardEvent) => {
   if (event.key === 'Escape')
     open.value = false
 }
 
-function onClickOutside(event: MouseEvent) {
+const clickOutsideHandler = (event: MouseEvent) => {
   if (dropdownRef.value && !dropdownRef.value.contains(event.target as Node))
     open.value = false
 }
 
 onMounted(() => {
-  document.addEventListener('keydown', onKeydown)
-  document.addEventListener('click', onClickOutside)
+  document.addEventListener('keydown', keydownHandler)
+  document.addEventListener('click', clickOutsideHandler)
 })
 
 onBeforeUnmount(() => {
-  document.removeEventListener('keydown', onKeydown)
-  document.removeEventListener('click', onClickOutside)
+  document.removeEventListener('keydown', keydownHandler)
+  document.removeEventListener('click', clickOutsideHandler)
 })
-
-const mobileOpen = ref(false)
 </script>
 
 <template>
@@ -40,8 +40,8 @@ const mobileOpen = ref(false)
     <div class="max-w-[1400px] mx-auto h-20 flex items-center justify-between px-4 sm:px-8">
       <!-- Logo -->
       <div class="flex items-center gap-8">
-        <NuxtLinkLocale to="/" class="flex items-center gap-3 group rounded-xl focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary-container focus-visible:ring-offset-2 focus-visible:ring-offset-surface" aria-label="BetKit">
-          <div class="w-10 h-10 rounded-xl bg-primary-container flex items-center justify-center font-display font-black text-on-primary-container text-xl tracking-tighter shadow-md shadow-brand-yellow/10 group-hover:scale-105 transition-transform" :style="{ fontFamily: displayFont }">
+        <NuxtLinkLocale to="/" class="flex items-center gap-3 group rounded-xl focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary-container focus-visible:ring-offset-2 focus-visible:ring-offset-surface" :aria-label="t('header.logoAriaLabel')">
+          <div class="w-10 h-10 rounded-xl bg-primary-container flex items-center justify-center font-display font-black text-on-primary-container text-xl tracking-tighter shadow-md shadow-brand-yellow/10 group-hover:scale-105 transition-transform duration-150" :style="{ fontFamily: displayFont }">
             BK
           </div>
           <div class="flex flex-col">
@@ -66,7 +66,7 @@ const mobileOpen = ref(false)
             @click="open = !open"
           >
             {{ t('nav.features') }}
-            <Icon name="lucide:chevron-down" :size="14" class="transition-transform" :class="open ? 'rotate-180' : ''" aria-hidden="true" />
+            <Icon name="lucide:chevron-down" :size="14" class="transition-transform duration-150" :class="open ? 'rotate-180' : ''" aria-hidden="true" />
           </button>
           <div
             v-show="open"

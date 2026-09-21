@@ -16,6 +16,9 @@
     "language": "Language",
     "skipToContent": "Skip to main content"
   },
+  "header": {
+    "logoAriaLabel": "BK BETKIT OS ARQUITECTURA TURF — homepage"
+  },
   "nav": {
     "features": "Features",
     "betTypes": "67 Bet Types",

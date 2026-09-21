@@ -1,3 +1,4 @@
+
 {
   "common": {
     "tryFree": "Probá gratis 30 días",
@@ -15,6 +16,9 @@
     "requestDemo": "Solicitá una demo",
     "language": "Idioma",
     "skipToContent": "Saltar al contenido principal"
+  },
+  "header": {
+    "logoAriaLabel": "BK BETKIT OS ARQUITECTURA TURF — página principal"
   },
   "nav": {
     "features": "Funciones",
