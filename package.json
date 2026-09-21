@@ -16,7 +16,7 @@
     "lint:fix": "eslint . --fix",
     "typecheck": "nuxt typecheck",
     "build:analyze": "nuxt build --analyze",
-    "deploy:vercel": "vercel --prod --yes",
+    "deploy:vercel": "NITRO_PRESET=vercel vercel --prod --yes",
     "deploy:vercel:dev": "vercel --yes",
     "db:push": "prisma db push"
   },
