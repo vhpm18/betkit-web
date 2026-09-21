@@ -6,7 +6,7 @@
     "setup10Min": "Configuración en 10 min",
     "thermalHardware": "Hardware térmico estándar",
     "learnMore": "Ver más",
-    "contactUs": "Contactanos",
+    "contactUs": "Contáctanos",
     "whatsapp": "WhatsApp",
     "email": "Email",
     "phone": "Teléfono",
@@ -39,7 +39,7 @@
     "badge": "GESTIÓN INTEGRAL PARA VENDE PAGAS",
     "title": "El sistema operativo moderno para tu {highlight}",
     "titleHighlight": "agencia hípica",
-    "subtitle": "Gestioná taquillas en tiempo real, automatizá el cálculo de 67 tipos de apuestas y emití boletos inviolables en menos de un segundo. Sin mensualidades fijas: pagás únicamente un porcentaje cuando tu agencia opera.",
+    "subtitle": "Gestioná taquillas en tiempo real, automatizá el cálculo de 67 tipos de apuestas y emití boletos inviolables en menos de un segundo. Sin mensualidades fijas: pagas únicamente un porcentaje cuando tu agencia opera.",
     "ctaPrimary": "Empezar 30 Días Gratis",
     "ctaSecondary": "Ver Demo Interactiva"
   },
@@ -61,7 +61,7 @@
     "fixedCost": {
       "number": "$0",
       "label": "Mensualidad Fija",
-      "desc": "Pagás solo por venta neta",
+      "desc": "Pagas solo por venta neta",
       "kicker": "MODELO TRANSPARENTE",
       "icon": "lucide:badge-check"
     },
@@ -142,7 +142,7 @@
     "sectionLabel": "Modelo Transparente de Ganancia Compartida",
     "title": "Si no hay carreras o llueve, tu costo es exactamente {price}",
     "titlePrice": "$0.00",
-    "desc": "Olvidate de abonar licencias mensuales fijas o contratos abusivos. En BetKit ganamos solo cuando tu agencia factura. Incluye soporte continuo directo a banqueros y operadores sin cargos adicionales.",
+    "desc": "Olvídate de abonar licencias mensuales fijas o contratos abusivos. En BetKit ganamos solo cuando tu agencia factura. Incluye soporte continuo directo a banqueros y operadores sin cargos adicionales.",
     "features": [
       "Cajeros ilimitados por sucursal",
       "Sin licencias por computadora",
@@ -167,7 +167,7 @@
   "home": {
     "banqueros": {
       "badge": "DUEÑOS Y BANQUEROS",
-      "title": "¿Tenés una o varias agencias hípicas?",
+      "title": "¿Tienes una o varias agencias hípicas?",
       "desc": "Dejá de perder dinero por liquidaciones erróneas y boletos duplicados. Automatizá tu mesa y recibí el balance en tu celular cada medianoche.",
       "cta": "Agendar Configuración Remota",
       "shortDesc": "Unificá la gestión de todas tus sucursales desde un solo panel. Controlá ventas, impresión, liquidación y auditoría en tiempo real sin importar la cantidad de terminales.",
@@ -175,7 +175,7 @@
     },
     "expansion": {
       "badge": "PROGRAMA DE EXPANSIÓN",
-      "title": "¿Querés comercializar BetKit en tu región?",
+      "title": "¿Quieres comercializar BetKit en tu región?",
       "desc": "Convertite en vendedor oficial autorizado. Obtené comisiones recurrentes por cada boleto emitido en las bancas que sumes a la red.",
       "cta": "Hablar con Soporte de Canales",
       "shortDesc": "Unite a nuestra red de distribuidores certificados en Latinoamérica. Formación técnica completa, soporte prioritario y comisiones competitivas por cada agencia activa.",
@@ -217,12 +217,12 @@
     "blog": "Blog"
   },
   "features": {
-    "title": "Todo lo que necesitás para operar tu Vende Paga, en un solo software",
+    "title": "Todo lo que necesitas para operar tu Vende Paga, en un solo software",
     "subtitle": "BetKit es una plataforma de gestión integral para agencias de apuestas hípicas. Permite administrar múltiples sucursales desde una sola cuenta, procesar ventas en diferentes monedas, configurar reglas de premios por hipódromo y tener control total de tu negocio en tiempo real.",
     "multiSucursal": {
       "title": "Sucursales",
       "fullTitle": "Administrá todas tus sucursales desde un solo lugar",
-      "fullDesc": "Con BetKit podés gestionar múltiples establecimientos sin importar cuántos tengas. Cada sucursal funciona con sus propios cajeros, supervisores, monedas y reglas de premios. Vos elegís qué hipódromos operan en cada una. El switcher de sucursales te permite cambiar entre ellas con un solo clic.",
+      "fullDesc": "Con BetKit puedes gestionar múltiples establecimientos sin importar cuántos tengas. Cada sucursal funciona con sus propios cajeros, supervisores, monedas y reglas de premios. Vos eligues qué hipódromos operan en cada una. El switcher de sucursales te permite cambiar entre ellas con un solo clic.",
       "telemetry": {
         "mode": "MODO MULTI-TENANT ACTIVO · LATAM PARI-MUTUEL MESH",
         "latency": "LATENCIA INTER-SEDE: <14MS",
@@ -232,7 +232,7 @@
       "hero": {
         "badge": "GESTIÓN CENTRALIZADA · ARQUITECTURA DISTRIBUIDA",
         "title": "Administrá todas tus sucursales desde un solo lugar",
-        "desc": "Con BetKit podés gestionar múltiples establecimientos sin importar cuántos tengas. Cada sucursal funciona con sus propios cajeros, supervisores, monedas y reglas de premios. Vos elegís qué hipódromos operan en cada una. El switcher de sucursales te permite cambiar entre ellas con un solo clic.",
+        "desc": "Con BetKit puedes gestionar múltiples establecimientos sin importar cuántos tengas. Cada sucursal funciona con sus propios cajeros, supervisores, monedas y reglas de premios. Vos eligues qué hipódromos operan en cada una. El switcher de sucursales te permite cambiar entre ellas con un solo clic.",
         "ctaPrimary": "Ver Switcher de Sucursales",
         "ctaSecondary": "Solicitar Demo de Red",
         "metrics": [
@@ -542,12 +542,12 @@
     },
     "premiaciones": {
       "title": "Motor de Premios",
-      "fullTitle": "Configurá las reglas de premios exactamente como las necesitás",
-      "fullDesc": "El motor de premios de BetKit es lo que nos hace únicos. Podés definir reglas de pago por hipódromo, por cantidad de competidores, con cálculos fijos o acumulativos, y aplicar topes por grupo. Un simulador integrado te permite probar cualquier escenario antes de aplicarlo. Y con las plantillas, podés reutilizar reglas entre múltiples hipódromos con un solo clic.",
+      "fullTitle": "Configurá las reglas de premios exactamente como las necesitas",
+      "fullDesc": "El motor de premios de BetKit es lo que nos hace únicos. Puedes definir reglas de pago por hipódromo, por cantidad de competidores, con cálculos fijos o acumulativos, y aplicar topes por grupo. Un simulador integrado te permite probar cualquier escenario antes de aplicarlo. Y con las plantillas, puedes reutilizar reglas entre múltiples hipódromos con un solo clic.",
       "hero": {
         "pill": "MOTOR MATRICIAL NATIVO · REGLAS FLEXIBLES",
-        "title": "Configurá las reglas de premios exactamente como las necesitás",
-        "desc": "El motor de premios de BetKit es lo que nos hace únicos. Podés definir reglas de pago por hipódromo, por cantidad de competidores, con cálculos fijos o acumulativos, y aplicar topes por grupo. Un simulador integrado te permite probar cualquier escenario antes de aplicarlo. Y con las plantillas, podés reutilizar reglas entre múltiples hipódromos con un solo clic.",
+        "title": "Configurá las reglas de premios exactamente como las necesitas",
+        "desc": "El motor de premios de BetKit es lo que nos hace únicos. Puedes definir reglas de pago por hipódromo, por cantidad de competidores, con cálculos fijos o acumulativos, y aplicar topes por grupo. Un simulador integrado te permite probar cualquier escenario antes de aplicarlo. Y con las plantillas, puedes reutilizar reglas entre múltiples hipódromos con un solo clic.",
         "ctaSimulator": "Probar Simulador en Vivo",
         "ctaDocs": "Ver Documentación de Reglas",
         "stats": [
@@ -733,7 +733,7 @@
             "icon": "lucide:terminal",
             "rule": "RULE 05",
             "title": "Simulador de premios en vivo",
-            "desc": "Ingresás el dividendo, el monto de apuesta y la cantidad de competidores — el sistema muestra paso a paso la trayectoria del cálculo.",
+            "desc": "Ingresas el dividendo, el monto de apuesta y la cantidad de competidores — el sistema muestra paso a paso la trayectoria del cálculo.",
             "footer": "Auditoría en tiempo cero"
           },
           {
@@ -841,7 +841,7 @@
       },
       "cta": {
         "kicker": "AUDITORÍA PERSONALIZADA EN VIVO",
-        "title": "¿Querés auditar el motor de premios con el reglamento de tu hipódromo?",
+        "title": "¿Quieres auditar el motor de premios con el reglamento de tu hipódromo?",
         "desc": "Agendá una demostración técnica de 15 minutos con nuestros arquitectos de sistemas. Cargamos el reglamento de tus salas y simulamos tus carreras más complejas.",
         "primary": "Solicitar Demostración Técnica",
         "secondary": "Explorar Catálogo de Apuestas",
@@ -851,7 +851,7 @@
           "Soporte LATAM 24/7"
         ]
       },
-      "desc": "Configurá las reglas de premios exactamente como las necesitás",
+      "desc": "Configurá las reglas de premios exactamente como las necesitas",
       "telemetry": {
         "label": "MOTOR MATRICIAL NATIVO · REGLAS FLEXIBLES",
         "regions": "CÁLCULO PARI-MUTUEL · LATAM",
@@ -1511,8 +1511,8 @@
     }
   },
   "pricingPage": {
-    "title": "Empieza gratis. Paga solo cuando facturás.",
-    "subtitle": "Sin mensualidad fija. Sin contratos. Sin sorpresas. BetKit cobra una pequeña comisión sobre el volumen de apuestas de tu Vende Paga. Si no apostás, no pagás. Si facturás mucho, pagás un poquito — pero ganás mucho más.",
+    "title": "Empieza gratis. Paga solo cuando facturas.",
+    "subtitle": "Sin mensualidad fija. Sin contratos. Sin sorpresas. BetKit cobra una pequeña comisión sobre el volumen de apuestas de tu Vende Paga. Si no apuestas, no pagas. Si facturas mucho, pagas un poquito — pero ganas mucho más.",
     "badge": "MODELO DE GANANCIA COMPARTIDA · CERO COSTOS FIJOS",
     "titleStart": "Empieza gratis.",
     "titleHighlight": "Paga solo",
@@ -1542,22 +1542,22 @@
       },
       {
         "title": "Después del mes gratis",
-        "desc": "Solo pagás una comisión por transacción sobre el volumen de apuestas procesadas."
+        "desc": "Solo pagas una comisión por transacción sobre el volumen de apuestas procesadas."
       },
       {
         "title": "Crecé sin límites",
-        "desc": "A más apuestas, más facturás. La comisión se mantiene baja porque tu volumen crece."
+        "desc": "A más apuestas, más facturas. La comisión se mantiene baja porque tu volumen crece."
       }
     ],
     "table": {
       "headers": [
         "Feature",
-        "Qué significa para vos"
+        "Qué significa para ti"
       ],
       "rows": [
         [
           "Sin mensualidad fija",
-          "No pagás por 'estar registrado' — pagás por operar"
+          "No pagas por 'estar registrado' — pagas por operar"
         ],
         [
           "Comisión por transacción",
@@ -1565,11 +1565,11 @@
         ],
         [
           "Sin contratos",
-          "Te vas cuando querés. Sin penalidades, sin letra chica"
+          "Te vas cuando quieres. Sin penalidades, sin letra chica"
         ],
         [
           "Sin sorpresas",
-          "Todo se calcula automáticamente — ves exactamente cuánto debés en tu panel"
+          "Todo se calcula automáticamente — ves exactamente cuánto debes en tu panel"
         ],
         [
           "Escala con tu negocio",
@@ -1581,17 +1581,17 @@
         ]
       ]
     },
-    "bodyText": "La mayoría de los software de apuestas te cobran una mensualidad fija — sin importar si vendés 10 apuestas o 10,000. BetKit es diferente: cobramos una pequeña comisión por cada transacción que procesás. Si tu Vende Paga no abrió un mes, no pagás nada. Si tuviste un mes increíble, pagás un poquito más — pero ganás mucho más. Y el primer mes? Gratis. Totalmente gratis.",
+    "bodyText": "La mayoría de los software de apuestas te cobran una mensualidad fija — sin importar si vendes 10 apuestas o 10,000. BetKit es diferente: cobramos una pequeña comisión por cada transacción que procesas. Si tu Vende Paga no abrió un mes, no pagas nada. Si tuviste un mes increíble, pagas un poquito más — pero ganas mucho más. Y el primer mes? Gratis. Totalmente gratis.",
     "cta": "Probá gratis por 30 días — sin tarjeta de crédito",
     "basePlan": "Plan base",
     "masterTitle": "Todo incluido. Nada fijo.",
     "freeBadge": "30 DÍAS 100% GRATIS",
     "stepsTitle": "Cómo funciona",
-    "tableTitle": "Lo que pagás. Lo que no.",
+    "tableTitle": "Lo que pagas. Lo que no.",
     "bodyKicker": "POR QUÉ ES DIFERENTE",
     "closingTitle": "Empieza gratis. Operá sin costos fijos.",
     "closingDesc": "Activá tu plan base en minutos y pagá solo cuando tu Vende Paga genera volumen. Sin tarjeta, sin contrato, sin instalación.",
-    "payOnly": "Pagás solo cuando tu Vende Paga genera volumen de apuestas. Sin costos fijos, sin sorpresas.",
+    "payOnly": "Pagas solo cuando tu Vende Paga genera volumen de apuestas. Sin costos fijos, sin sorpresas.",
     "tryFree30": "Probá gratis por 30 días",
     "masterBadge": "Plan Red Vende-Paga OS",
     "masterEdition": "LATAM EDITION",
@@ -1634,7 +1634,7 @@
     "masterLockNote": "Sin tarjeta de crédito · Instalación remota en 20 minutos",
     "simulatorKicker": "Simulador de rentabilidad hípica",
     "simulatorTitle": "Calculá tu escala y recupero de arqueos",
-    "simulatorDesc": "A mayor volumen procesado por tu agencia o red de vende-pagas, menor es el costo. Además, eliminás pérdidas por boletos manuales.",
+    "simulatorDesc": "A mayor volumen procesado por tu agencia o red de vende-pagas, menor es el costo. Además, eliminas pérdidas por boletos manuales.",
     "simulatorVolume": "Volumen mensual apostado (GGR agencia)",
     "simulatorVolumeSuffix": "USD / mes",
     "simulatorModel": "Modelo de cobro",
@@ -1686,7 +1686,7 @@
     "faqItems": [
       {
         "q": "¿Qué sucede si hay lluvia o se cancela una jornada hípica?",
-        "a": "Si no hay carreras o se suspende el programa por inclemencias climáticas, tu costo de uso es exactamente $0.00 USD. No pagás ningún canon mensual, mantenimiento ni hosting. Nuestro modelo es 100% de riesgo compartido."
+        "a": "Si no hay carreras o se suspende el programa por inclemencias climáticas, tu costo de uso es exactamente $0.00 USD. No pagas ningún canon mensual, mantenimiento ni hosting. Nuestro modelo es 100% de riesgo compartido."
       },
       {
         "q": "¿Necesito comprar hardware o terminales especiales?",
@@ -1702,7 +1702,7 @@
       }
     ],
     "bannerKicker": "CANAL DIRECTO PARA DUEÑOS DE AGENCIA Y REDES",
-    "bannerTitle": "¿Manejás más de 10 agencias o sub-agentes?",
+    "bannerTitle": "¿Manejas más de 10 agencias o sub-agentes?",
     "bannerDesc": "Coordiná una llamada de auditoría técnica con nuestros ingenieros de cálculo. Diseñamos estructuras de comisión a medida para redes de alto volumen en Argentina, Uruguay, Venezuela, Chile y Centroamérica.",
     "bannerWhatsapp": "Hablar por WhatsApp",
     "bannerDemo": "Solicitar demo en vivo",
@@ -1802,7 +1802,7 @@
       "thermal": "Deseo probar la compatibilidad con mis ticketeras térmicas actuales (Epson, Star Micronics, Bixolon, Custom o genéricas ESC/POS).",
       "submit": "Coordinar Demo Guiada de 15 Minutos",
       "noteTitle": "Aviso importante:",
-      "note": "Por el momento no publicamos accesos de demostración. Pedí tu demo personalizada y la coordinamos con vos.",
+      "note": "Por el momento no publicamos accesos de demostración. Pedí tu demo personalizada y la coordinamos contigo.",
       "feedback": "SOLICITUD TRANSMITIDA. ASIGNANDO SESIÓN CON ESPECIALISTA TURF OS..."
     },
     "includes": {
@@ -1919,7 +1919,7 @@
   },
   "linksPage": {
     "bio": "Multi-sucursal, multi-moneda, premios configurables. {highlight}",
-    "bioHighlight": "Sin mensualidad — pagás solo cuando facturás.",
+    "bioHighlight": "Sin mensualidad — pagas solo cuando facturas.",
     "items": [
       {
         "icon": "🚀",
@@ -1973,7 +1973,7 @@
       },
       {
         "title": "Sin mensualidad",
-        "desc": "Pagás solo cuando facturás — cero riesgo"
+        "desc": "Pagas solo cuando facturas — cero riesgo"
       },
       {
         "title": "Web + Escritorio",
@@ -1998,7 +1998,7 @@
     "whatsappValue": "+54 9 11 4092-TURF",
     "supportLabel": "Soporte",
     "responseTime": "Respondemos en menos de 24 horas hábiles.",
-    "formTitle": "Escribinos",
+    "formTitle": "Escríbenos",
     "formDesc": "Completá el formulario y te respondemos en menos de 24 horas hábiles.",
     "form": {
       "name": "Nombre y apellido",
@@ -2016,7 +2016,7 @@
   },
   "banquerosPage": {
     "badge": "BANQUEROS Y CAJEROS",
-    "title": "Pagás solo cuando facturás",
+    "title": "Pagas solo cuando facturas",
     "subtitle": "Sin mensualidad fija y con primer mes gratis. BetKit es la plataforma completa para tu Vende Paga: controlá todas tus sucursales, poné a tus cajeros a vender más rápido y crecé sabiendo que tu costo se alinea con tus ventas.",
     "ctaPrimary": "Probá gratis 30 días",
     "ctaSecondary": "Solicitá una demo",
@@ -2150,7 +2150,7 @@
         "bullets": [
           "Multi-sucursal desde una sola cuenta: todas tus agencias, todos tus cajeros, en un mismo panel",
           "Moneda por perfil de cajero: configurá qué moneda maneja cada vendedor y aceptá ARS, USD, VEF, CLP en el mismo local",
-          "Motor de premiaciones configurable con simulador en vivo: vos definís las reglas de pago",
+          "Motor de premiaciones configurable con simulador en vivo: tú defines las reglas de pago",
           "67 tipos de apuesta nativos — todo lo que el jugador pide, sin perder una venta",
           "Dashboard por sucursal, ranking de cajeros y alertas en tiempo real",
           "Contingencia offline: si se corta internet, la taquilla sigue vendiendo y todo se sincroniza al volver"
@@ -2336,7 +2336,7 @@
     "simulator": {
       "kicker": "CALCULADORA DE PROYECCIÓN B2B",
       "title": "Simulá tus ingresos mensuales",
-      "desc": "A diferencia de comisiones de una sola vez, en BetKit cobrás un fee recurrente mientras las agencias sigan emitiendo tickets.",
+      "desc": "A diferencia de comisiones de una sola vez, en BetKit cobras un fee recurrente mientras las agencias sigan emitiendo tickets.",
       "chip": "LIQUIDACIÓN AUDITABLE BLOCKCHAIN O SWIFT",
       "agenciesLabel": "Agencias o Bancas Conectadas",
       "agencies": [
@@ -2381,13 +2381,13 @@
     "model": {
       "kicker": "ARQUITECTURA DE ALIANZA",
       "title": "El modelo operativo en 4 pasos",
-      "desc": "Diseñado para que vos te enfoques exclusivamente en abrir puertas y presentar el sistema en agencias de confianza. Nosotros resolvemos el resto.",
+      "desc": "Diseñado para que te enfoques exclusivamente en abrir puertas y presentar el sistema en agencias de confianza. Nosotros resolvemos el resto.",
       "steps": [
         {
           "num": "01",
           "icon": "lucide:clipboard-check",
           "title": "Postulación Express",
-          "desc": "Completás el formulario. Validamos tu trayectoria y zona de influencia comercial en menos de 24 horas hábiles.",
+          "desc": "Completas el formulario. Validamos tu trayectoria y zona de influencia comercial en menos de 24 horas hábiles.",
           "badge": "Validación < 24 Horas",
           "badgeIcon": "lucide:timer",
           "badgeTone": "text-tertiary"
@@ -2406,7 +2406,7 @@
           "icon": "lucide:headset",
           "title": "Soporte Central 24/7",
           "desc": "BetKit atiende de forma directa cualquier duda técnica, calibración de ticketeras térmicas o caídas de conectividad.",
-          "badge": "Cero llamadas para vos",
+          "badge": "Cero llamadas para ti",
           "badgeIcon": "lucide:zap",
           "badgeTone": "text-tertiary-fixed"
         },
@@ -2491,8 +2491,8 @@
     },
     "formInfo": {
       "badge": "ALIANZA B2B OFICIAL",
-      "title": "Postulate hoy como Partner Oficial",
-      "desc": "Las plazas se asignan con exclusividad territorial según la densidad de agencias hípicas en tu zona. Dejanos tus datos para coordinar una llamada de onboarding con nuestro director de expansión regional.",
+      "title": "Postúlate hoy como Partner Oficial",
+      "desc": "Las plazas se asignan con exclusividad territorial según la densidad de agencias hípicas en tu zona. Déjanos tus datos para coordinar una llamada de onboarding con nuestro director de expansión regional.",
       "guarantees": [
         {
           "icon": "lucide:shield-check",
@@ -2539,10 +2539,10 @@
           "label": "Más de 25 agencias (Operador / Banca mayorista)"
         }
       ],
-      "experience": "¿Tenés vínculo actual con agencias hípicas o terminales?",
+      "experience": "¿Tienes vínculo actual con agencias hípicas o terminales?",
       "experiencePh": "Ej. Proveo insumos térmicos, soy agente hípico, tengo banca propia...",
       "submit": "SOLICITAR ALTA DE PARTNER INMEDIATA",
-      "legalNote": "Al enviar tus datos aceptás el acuerdo de confidencialidad comercial de BetKit Corp.",
+      "legalNote": "Al enviar tus datos aceptas el acuerdo de confidencialidad comercial de BetKit Corp.",
       "successTitle": "¡Solicitud enviada!",
       "successDesc": "Nuestro equipo regional te contactará por WhatsApp en menos de 24 horas.",
       "required": "obligatorio"
