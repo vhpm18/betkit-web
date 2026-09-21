@@ -38,10 +38,10 @@ export default defineNuxtConfig({
 
   fonts: {
     families: [
-      { name: 'Archivo Narrow', provider: 'google', weights: [600, 700], display: 'swap' },
-      { name: 'Archivo', provider: 'google', weights: [500, 600, 700, 800, 900], display: 'swap' },
-      { name: 'Source Sans 3', provider: 'google', weights: [300, 400, 500, 600, 700], display: 'swap' },
-      { name: 'JetBrains Mono', provider: 'google', weights: [400, 500, 600, 700], display: 'swap' },
+      { name: 'Archivo Narrow', provider: 'google', weights: [700], display: 'swap' },
+      { name: 'Archivo', provider: 'google', weights: [700], display: 'swap' },
+      { name: 'Source Sans 3', provider: 'google', weights: [400, 600], display: 'swap' },
+      { name: 'JetBrains Mono', provider: 'google', weights: [400, 700], display: 'swap' },
     ],
     display: 'swap',
   },
@@ -60,6 +60,20 @@ export default defineNuxtConfig({
     // OptimizeDeps for faster HMR
     optimizeDeps: {
       include: ['vue', 'vue-router', 'vue-i18n'],
+    },
+    build: {
+      rollupOptions: {
+        output: {
+          manualChunks(id) {
+            if (id.includes('reka-ui') && !id.includes('button')) {
+              return 'vendor-reka-ui'
+            }
+            if (id.includes('vue-i18n') || id.includes('vue-router')) {
+              return 'vendor-vue-extras'
+            }
+          },
+        },
+      },
     },
   },
 
