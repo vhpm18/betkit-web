@@ -13,7 +13,7 @@ useHead(() => ({
   <div class="min-h-screen bg-[#0D0E12] text-[#E2E4E9] font-body">
     <a
       href="#main-content"
-      class="sr-only focus:not-sr-only focus:absolute focus:z-[100] focus:top-2 focus:left-2 focus:bg-[#FFC71A] focus:text-black focus:font-bold focus:px-4 focus:py-2 focus:rounded-lg"
+      class="sr-only focus:not-sr-only focus:absolute focus:z-[100] focus:top-2 focus:left-2 focus:bg-[#FFC71A] focus:text-black focus:font-bold focus:px-4 focus:py-3 focus:min-h-12 focus:flex focus:items-center focus:rounded-lg"
     >
       {{ t('common.skipToContent') }}
     </a>

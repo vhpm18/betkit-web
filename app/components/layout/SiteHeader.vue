@@ -60,7 +60,7 @@ onBeforeUnmount(() => {
         <div ref="dropdownRef" class="relative">
           <button
             type="button"
-            class="inline-flex items-center gap-1.5 px-3 py-2 text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary-container rounded-lg"
+            class="inline-flex items-center gap-1.5 px-3 py-2.5 min-h-12 text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary-container rounded-lg"
             :aria-expanded="open"
             aria-controls="features-menu"
             @click="open = !open"
