@@ -19,12 +19,13 @@ export default defineNuxtConfig({
   i18n: {
     langDir: 'locales',
     locales: [
-      { code: 'es', name: 'Español', file: 'es.json' },
-      { code: 'en', name: 'English', file: 'en.json' },
-      { code: 'pt-BR', name: 'Português (BR)', file: 'pt-BR.json' },
+      { code: 'es', name: 'Español', language: 'es', file: 'es.json' },
+      { code: 'en', name: 'English', language: 'en', file: 'en.json' },
+      { code: 'pt-BR', name: 'Português (BR)', language: 'pt-BR', file: 'pt-BR.json' },
     ],
     defaultLocale: 'es',
     strategy: 'prefix_except_default',
+    baseUrl: process.env.NUXT_PUBLIC_SITE_URL || 'https://betkit.io',
     detectBrowserLanguage: {
       useCookie: true,
       cookieKey: 'i18n_redirected',
@@ -55,7 +56,7 @@ export default defineNuxtConfig({
   },
 
   site: {
-    url: process.env.NUXT_SITE_URL || 'https://betkit.com',
+    url: process.env.NUXT_PUBLIC_SITE_URL || 'https://betkit.io',
     name: 'BetKit',
     description: 'Plataforma todo-en-uno para hipódromos, billeteras digitales y corredores de apuestas.',
     defaultLocale: 'es',
