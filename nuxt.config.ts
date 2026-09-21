@@ -108,7 +108,7 @@ export default defineNuxtConfig({
     enabled: true,
     blockAiBots: false,
     allow: '/',
-    disallow: ['/api/', '/__nuxt_error'],
+    disallow: ['/__nuxt_error'],
   },
 
   routeRules: {
