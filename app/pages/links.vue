@@ -9,44 +9,36 @@ const socialUrls = computed(() => ({
   tiktok: appConfig.social?.tiktok || '',
 }))
 
-// Merge i18n items with social URLs and filter out placeholders
-// tm() returns the raw translation value (array/object), t() only resolves strings
+// tm() returns i18n message nodes, not plain strings — we need to coerce with String()
 const visibleLinks = computed(() => {
-  const items = tm('linksPage.items') as Array<{icon: string, label: string, micro: string, href: string}>
-  if (!Array.isArray(items)) return []
-  return items.filter((item) => {
-    // If href is a placeholder (# or empty), check if we have a real URL
-    if (!item.href || item.href === '#') {
-      // Check if this item is a social link with a real URL
-      const icon = item.icon.toLowerCase()
-      if (icon.includes('whatsapp') || icon.includes('💬')) {
-        return !!socialUrls.value.whatsapp
+  const raw = tm('linksPage.items')
+  if (!Array.isArray(raw)) return []
+  return raw
+    .map((item: any) => ({
+      icon: String(item.icon ?? ''),
+      label: String(item.label ?? ''),
+      micro: String(item.micro ?? ''),
+      href: String(item.href ?? ''),
+    }))
+    .filter((item) => {
+      if (!item.href || item.href === '#') {
+        const icon = item.icon
+        if (icon.includes('whatsapp') || icon === '💬') return !!socialUrls.value.whatsapp
+        if (icon.includes('instagram') || icon === '📸') return !!socialUrls.value.instagram
+        if (icon.includes('tiktok') || icon === '🎵') return !!socialUrls.value.tiktok
+        return false
       }
-      if (icon.includes('instagram') || icon.includes('📷')) {
-        return !!socialUrls.value.instagram
+      return true
+    })
+    .map((item) => {
+      const icon = item.icon
+      if (item.href === '#' || !item.href) {
+        if (icon.includes('whatsapp') || icon === '💬') return { ...item, href: socialUrls.value.whatsapp }
+        if (icon.includes('instagram') || icon === '📸') return { ...item, href: socialUrls.value.instagram }
+        if (icon.includes('tiktok') || icon === '🎵') return { ...item, href: socialUrls.value.tiktok }
       }
-      if (icon.includes('tiktok') || icon.includes('🎵')) {
-        return !!socialUrls.value.tiktok
-      }
-      return false
-    }
-    return true
-  }).map((item) => {
-    // Replace placeholder hrefs with real URLs from app config
-    const icon = item.icon.toLowerCase()
-    if (item.href === '#' || !item.href) {
-      if (icon.includes('whatsapp') || icon.includes('💬')) {
-        return { ...item, href: socialUrls.value.whatsapp }
-      }
-      if (icon.includes('instagram') || icon.includes('📷')) {
-        return { ...item, href: socialUrls.value.instagram }
-      }
-      if (icon.includes('tiktok') || icon.includes('🎵')) {
-        return { ...item, href: socialUrls.value.tiktok }
-      }
-    }
-    return item
-  })
+      return item
+    })
 })
 
 useHead({
