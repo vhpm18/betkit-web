@@ -118,15 +118,16 @@ useHead({
         <!-- Coverage Ticker -->
         <div class="mt-3.5 flex flex-wrap items-center justify-center gap-1 text-[11px] font-mono text-foreground-muted bg-dark-900/60 border border-dark-border/60 py-1.5 px-3 rounded-full">
           <span class="text-foreground-subtle font-semibold">COBERTURA:</span>
-          <span class="hover:text-brand-yellow transition-colors">AR</span>·
-          <span class="hover:text-brand-yellow transition-colors">VE</span>·
-          <span class="hover:text-brand-yellow transition-colors">CL</span>·
-          <span class="hover:text-brand-yellow transition-colors">CO</span>·
-          <span class="hover:text-brand-yellow transition-colors">PE</span>·
-          <span class="hover:text-brand-yellow transition-colors">UY</span>·
-          <span class="hover:text-brand-yellow transition-colors">MX</span>·
-          <span class="hover:text-brand-yellow transition-colors">PA</span>·
-          <span class="hover:text-brand-yellow transition-colors">DO</span>
+          <span class="hover:text-brand-yellow transition-colors">🇦🇷</span>·
+          <span class="hover:text-brand-yellow transition-colors">🇻🇪</span>·
+          <span class="hover:text-brand-yellow transition-colors">🇨🇱</span>·
+          <span class="hover:text-brand-yellow transition-colors">🇨🇴</span>·
+          <span class="hover:text-brand-yellow transition-colors">🇵🇪</span>·
+          <span class="hover:text-brand-yellow transition-colors">🇺🇾</span>·
+          <span class="hover:text-brand-yellow transition-colors">🇲🇽</span>·
+          <span class="hover:text-brand-yellow transition-colors">🇵🇦</span>·
+          <span class="hover:text-brand-yellow transition-colors">🇩🇴</span>·
+          <span class="hover:text-brand-yellow transition-colors">🇧🇷</span>
         </div>
       </header>
 

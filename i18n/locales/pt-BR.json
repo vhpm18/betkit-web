@@ -1782,6 +1782,10 @@
         {
           "value": "+1",
           "label": "🇩🇴 +1 (DO)"
+        },
+        {
+          "value": "+55",
+          "label": "🇧🇷 +55 (BR)"
         }
       ],
       "operationType": "Tipo de Operação *",
