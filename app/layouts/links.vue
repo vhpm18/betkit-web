@@ -20,7 +20,7 @@ useHead(() => ({
 /* Ambient background gradients */
 .min-h-screen {
   min-height: 100vh;
-  background-color: var(--color-dark-950);
+  background-color: #07080a;
   background-image:
     radial-gradient(circle at 50% 0%, rgba(255, 199, 26, 0.08) 0%, transparent 45%),
     radial-gradient(circle at 10% 40%, rgba(16, 185, 129, 0.03) 0%, transparent 40%),
