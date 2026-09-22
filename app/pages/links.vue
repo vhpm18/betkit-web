@@ -116,18 +116,17 @@ useHead({
         </p>
 
         <!-- Coverage Ticker -->
-        <div class="mt-3.5 flex flex-wrap items-center justify-center gap-1 text-[11px] font-mono text-foreground-muted bg-dark-900/60 border border-dark-border/60 py-1.5 px-3 rounded-full">
-          <span class="text-foreground-subtle font-semibold">COBERTURA:</span>
-          <span class="hover:text-brand-yellow transition-colors">🇦🇷</span>·
-          <span class="hover:text-brand-yellow transition-colors">🇻🇪</span>·
-          <span class="hover:text-brand-yellow transition-colors">🇨🇱</span>·
-          <span class="hover:text-brand-yellow transition-colors">🇨🇴</span>·
-          <span class="hover:text-brand-yellow transition-colors">🇵🇪</span>·
-          <span class="hover:text-brand-yellow transition-colors">🇺🇾</span>·
-          <span class="hover:text-brand-yellow transition-colors">🇲🇽</span>·
-          <span class="hover:text-brand-yellow transition-colors">🇵🇦</span>·
-          <span class="hover:text-brand-yellow transition-colors">🇩🇴</span>·
-          <span class="hover:text-brand-yellow transition-colors">🇧🇷</span>
+        <div class="mt-3.5 flex flex-wrap items-center justify-center gap-1.5 text-base sm:text-lg text-foreground-muted bg-dark-900/60 border border-dark-border/60 py-1.5 px-4 rounded-full leading-none" aria-label="Países con cobertura">
+          <span class="hover:scale-125 transition-transform cursor-default" aria-hidden="true">🇦🇷</span>·
+          <span class="hover:scale-125 transition-transform cursor-default" aria-hidden="true">🇻🇪</span>·
+          <span class="hover:scale-125 transition-transform cursor-default" aria-hidden="true">🇨🇱</span>·
+          <span class="hover:scale-125 transition-transform cursor-default" aria-hidden="true">🇨🇴</span>·
+          <span class="hover:scale-125 transition-transform cursor-default" aria-hidden="true">🇵🇪</span>·
+          <span class="hover:scale-125 transition-transform cursor-default" aria-hidden="true">🇺🇾</span>·
+          <span class="hover:scale-125 transition-transform cursor-default" aria-hidden="true">🇲🇽</span>·
+          <span class="hover:scale-125 transition-transform cursor-default" aria-hidden="true">🇵🇦</span>·
+          <span class="hover:scale-125 transition-transform cursor-default" aria-hidden="true">🇩🇴</span>·
+          <span class="hover:scale-125 transition-transform cursor-default" aria-hidden="true">🇧🇷</span>
         </div>
       </header>
 
