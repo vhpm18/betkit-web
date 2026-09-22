@@ -17,7 +17,41 @@ export default defineNuxtConfig({
     '@nuxtjs/seo',
     '@nuxtjs/i18n',
     '@vercel/analytics',
+    'nuxt-delay-hydration',
   ],
+
+  experimental: {
+    inlineSSRStyles: true,
+  },
+
+  delayHydration: {
+    mode: 'mount',
+    // Only delay hydration on client-side, avoids flash on prerendered pages
+  },
+
+  app: {
+    head: {
+      link: [
+        // Preconnect to Google Fonts for faster font loading
+        { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
+        { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' },
+        // Preload critical latin woff2 fonts
+        {
+          rel: 'preload',
+          href: 'https://fonts.googleapis.com/css2?family=Archivo:wght@700&family=Archivo+Narrow:wght@700&family=Source+Sans+3:wght@400;600&family=JetBrains+Mono:wght@400;700&display=swap',
+          as: 'style',
+          crossorigin: '',
+        },
+      ],
+      meta: [
+        { name: 'theme-color', content: '#0F0D15' },
+        // Security headers via meta (complement vercel.json)
+        { httpEquiv: 'X-Content-Type-Options', content: 'nosniff' },
+        { httpEquiv: 'X-Frame-Options', content: 'DENY' },
+        { httpEquiv: 'X-XSS-Protection', content: '1; mode=block' },
+      ],
+    },
+  },
 
   i18n: {
     langDir: 'locales',

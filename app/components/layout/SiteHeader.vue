@@ -41,10 +41,10 @@ onBeforeUnmount(() => {
       <!-- Logo -->
       <div class="flex items-center gap-8">
         <NuxtLinkLocale to="/" class="flex items-center gap-3 group rounded-xl focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary-container focus-visible:ring-offset-2 focus-visible:ring-offset-surface" :aria-label="t('header.logoAriaLabel')">
-          <div class="w-10 h-10 rounded-xl bg-primary-container flex items-center justify-center font-display font-black text-on-primary-container text-xl tracking-tighter shadow-md shadow-brand-yellow/10 group-hover:scale-105 transition-transform duration-150" :style="{ fontFamily: displayFont }">
+          <div class="w-10 h-10 rounded-xl bg-primary-container flex items-center justify-center font-display font-black text-on-primary-container text-xl tracking-tighter shadow-md shadow-brand-yellow/10 group-hover:scale-105 transition-transform duration-150" :style="{ fontFamily: displayFont }" aria-hidden="true">
             BK
           </div>
-          <div class="flex flex-col">
+          <div class="flex flex-col" aria-hidden="true">
             <div class="flex items-center gap-1.5">
               <span class="font-display font-black text-2xl tracking-tight text-on-surface uppercase leading-none" :style="{ fontFamily: displayFont }">BETKIT</span>
               <span class="text-[10px] font-mono font-bold bg-surface-container-high text-primary-container px-1.5 py-0.5 rounded border border-outline-variant/20">OS</span>
