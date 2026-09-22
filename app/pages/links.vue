@@ -1,4 +1,6 @@
 <script setup lang="ts">
+definePageMeta({ layout: 'links' })
+
 const { t, tm } = useI18n()
 const appConfig = useAppConfig()
 
