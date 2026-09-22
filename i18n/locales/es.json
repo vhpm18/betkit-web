@@ -1922,8 +1922,9 @@
     }
   },
   "linksPage": {
+    "badgeMostChosen": "MÁS ELEGIDO",
     "bio": "Multi-sucursal, multi-moneda, premios configurables. {highlight}",
-    "bioHighlight": "Sin mensualidad — pagas solo cuando facturas.",
+    "bioHighlight": "Sin mensualidad fija — pagás solo cuando facturás.",
     "items": [
       {
         "icon": "🚀",

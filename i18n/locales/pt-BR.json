@@ -1921,8 +1921,9 @@
     }
   },
   "linksPage": {
+    "badgeMostChosen": "MAIS ESCOLHIDO",
     "bio": "Multi-filial, multi-moeda, prêmios configuráveis. {highlight}",
-    "bioHighlight": "Sem mensalidade — pague só quando faturar.",
+    "bioHighlight": "Sem mensalidade fixa — pague só quando faturar.",
     "items": [
       {
         "icon": "🚀",

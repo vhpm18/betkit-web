@@ -1921,8 +1921,9 @@
     }
   },
   "linksPage": {
+    "badgeMostChosen": "MOST CHOSEN",
     "bio": "Multi-branch, multi-currency, configurable prizes. {highlight}",
-    "bioHighlight": "No monthly fee — pay only when you earn.",
+    "bioHighlight": "No fixed monthly fee — pay only when you earn.",
     "items": [
       {
         "icon": "🚀",
