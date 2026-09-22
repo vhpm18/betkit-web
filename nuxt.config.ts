@@ -155,7 +155,7 @@ export default defineNuxtConfig({
     '/sellers': { prerender: true, sitemap: { priority: 0.8, changefreq: 'monthly' } },
     '/vendedores': { prerender: true, sitemap: { priority: 0.8, changefreq: 'monthly' } },
     '/blog': { prerender: true, sitemap: { priority: 0.7, changefreq: 'daily' } },
-    '/links': { prerender: true, sitemap: { priority: 0.3, changefreq: 'monthly' } },
+    '/links': { sitemap: { priority: 0.3, changefreq: 'monthly' } },
     '/software-para-vende-pagas': { prerender: true, sitemap: { priority: 0.7, changefreq: 'monthly' } },
     '/features/**': { prerender: true, sitemap: { priority: 0.8, changefreq: 'weekly' } },
   },
