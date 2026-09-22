@@ -1,5 +1,5 @@
 <script setup lang="ts">
-const { t } = useI18n()
+const { t, tm } = useI18n()
 const appConfig = useAppConfig()
 
 // Get social URLs from app config
@@ -10,8 +10,10 @@ const socialUrls = computed(() => ({
 }))
 
 // Merge i18n items with social URLs and filter out placeholders
+// tm() returns the raw translation value (array/object), t() only resolves strings
 const visibleLinks = computed(() => {
-  const items = t('linksPage.items') as unknown as Array<{icon: string, label: string, micro: string, href: string}>
+  const items = tm('linksPage.items') as Array<{icon: string, label: string, micro: string, href: string}>
+  if (!Array.isArray(items)) return []
   return items.filter((item) => {
     // If href is a placeholder (# or empty), check if we have a real URL
     if (!item.href || item.href === '#') {
