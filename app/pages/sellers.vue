@@ -160,8 +160,10 @@ function validateField(field: string, value: string): boolean {
 }
 
 const formSubmitted = ref(false)
+const isSubmitting = ref(false)
+const formError = ref('')
 
-function onSubmit() {
+async function onSubmit() {
   // Validate required fields
   const nameValid = validateField('name', form.name)
   const whatsappValid = validateField('whatsapp', form.whatsapp)
@@ -171,17 +173,36 @@ function onSubmit() {
     return
   }
 
-  // Build and submit mailto link
-  const agenciesLabel = page.form.agenciesOptions.find((o) => o.value === form.agencies)?.label ?? form.agencies
-  const mailto = buildMailto('info@betkit.com', page.form.header, [
-    { label: page.form.name, value: form.name },
-    { label: page.form.whatsapp, value: form.whatsapp },
-    { label: page.form.country, value: form.country },
-    { label: page.form.agencies, value: agenciesLabel },
-    { label: page.form.experience, value: form.experience },
-  ])
-  formSubmitted.value = true
-  window.location.href = mailto
+  isSubmitting.value = true
+  formError.value = ''
+
+  try {
+    const agenciesLabel = page.form.agenciesOptions.find((o) => o.value === form.agencies)?.label ?? form.agencies
+    const res = await $fetch('/api/telegram', {
+      method: 'POST',
+      body: {
+        formType: 'sellers',
+        name: form.name,
+        whatsapp: form.whatsapp,
+        country: form.country,
+        agencies: agenciesLabel,
+        experience: form.experience,
+      },
+    })
+
+    if (res.success) {
+      formSubmitted.value = true
+    }
+    else {
+      formError.value = 'Error al enviar. Intentá de nuevo.'
+    }
+  }
+  catch {
+    formError.value = 'Error de conexión. Intentá de nuevo.'
+  }
+  finally {
+    isSubmitting.value = false
+  }
 }
 
 useHead({
@@ -626,6 +647,13 @@ useHead({
             novalidate
             @submit.prevent="onSubmit"
           >
+            <!-- Error Message -->
+            <div
+              v-if="formError"
+              class="bg-red-500/10 border border-red-500/30 text-red-400 rounded-lg px-4 py-3 text-sm font-medium"
+            >
+              {{ formError }}
+            </div>
             <div class="flex justify-between items-center pb-2">
               <h3 class="font-display text-base uppercase text-on-surface font-bold tracking-wide" :style="{ fontFamily: displayFont }">
                 {{ page.form.header }}
@@ -721,9 +749,20 @@ useHead({
               <button
                 type="submit"
                 class="w-full py-4 px-8 rounded-lg bg-primary-container hover:bg-primary-fixed-dim text-on-primary-fixed font-bold text-sm uppercase tracking-wider transition-all shadow-xl hover:shadow-primary-container/20 active:scale-[0.99] flex items-center justify-center gap-2 border border-primary-container focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary-container focus-visible:ring-offset-2 focus-visible:ring-offset-surface-container"
+                :disabled="formSubmitted || isSubmitting"
               >
-                <span>{{ page.form.submit }}</span>
-                <Icon name="lucide:send" :size="20" aria-hidden="true" />
+                <template v-if="formSubmitted">
+                  <Icon name="lucide:check-circle" :size="20" aria-hidden="true" />
+                  <span>{{ page.form.successTitle }}</span>
+                </template>
+                <template v-else-if="isSubmitting">
+                  <Icon name="lucide:loader-2" :size="20" class="animate-spin" aria-hidden="true" />
+                  <span>Enviando...</span>
+                </template>
+                <template v-else>
+                  <span>{{ page.form.submit }}</span>
+                  <Icon name="lucide:send" :size="20" aria-hidden="true" />
+                </template>
               </button>
               <p class="font-mono text-[11px] text-on-surface text-center mt-3">
                 {{ page.form.legalNote }}

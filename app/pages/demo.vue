@@ -86,12 +86,14 @@ const immersionImages = [
 ]
 
 const formSubmitted = ref(false)
+const isSubmitting = ref(false)
+const formError = ref('')
 const feedbackMessage = computed(() => formSubmitted.value
   ? `SESIÓN REGISTRADA PARA ${form.name.toUpperCase()} (${form.countryCode} ${form.whatsapp}) - ASIGNANDO INGENIERO TURF OS. NOS CONTACTAREMOS VÍA WHATSAPP EN BREVE.`
   : page.form.feedback,
 )
 
-function handleFormSubmit() {
+async function handleFormSubmit() {
   const valid = form.name.trim()
     && form.email.trim()
     && form.whatsapp.trim()
@@ -101,7 +103,38 @@ function handleFormSubmit() {
   if (!valid) {
     return
   }
-  formSubmitted.value = true
+
+  isSubmitting.value = true
+  formError.value = ''
+
+  try {
+    const res = await $fetch('/api/telegram', {
+      method: 'POST',
+      body: {
+        formType: 'demo',
+        name: form.name,
+        email: form.email,
+        countryCode: form.countryCode,
+        whatsapp: form.whatsapp,
+        operationType: form.operationType,
+        terminals: form.terminals,
+        racetracks: form.racetracks,
+      },
+    })
+
+    if (res.success) {
+      formSubmitted.value = true
+    }
+    else {
+      formError.value = 'Error al enviar. Intentá de nuevo.'
+    }
+  }
+  catch {
+    formError.value = 'Error de conexión. Intentá de nuevo.'
+  }
+  finally {
+    isSubmitting.value = false
+  }
 }
 
 useHead({
@@ -192,6 +225,13 @@ useHead({
               <p class="text-sm text-secondary">{{ page.form.desc }}</p>
             </div>
             <form class="flex flex-col gap-4" novalidate @submit.prevent="handleFormSubmit">
+              <!-- Error Message -->
+              <div
+                v-if="formError"
+                class="bg-red-500/10 border border-red-500/30 text-red-400 rounded-lg px-4 py-3 text-sm font-medium"
+              >
+                {{ formError }}
+              </div>
               <!-- Row 1: Name & Email -->
               <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 <div class="flex flex-col gap-1">
@@ -260,9 +300,19 @@ useHead({
               </div>
               <!-- Submit -->
               <div class="flex flex-col gap-2 pt-1">
-                <button type="submit" class="w-full bg-primary-container hover:bg-primary-fixed-dim text-on-primary-container font-bold text-sm uppercase tracking-wider transition-all shadow-lg flex items-center justify-center gap-2 rounded-lg font-display py-3.5" :style="{ fontFamily: displayFont }">
-                  <Icon name="lucide:terminal" :size="24" aria-hidden="true" />
-                  <span>{{ page.form.submit }}</span>
+                <button type="submit" class="w-full bg-primary-container hover:bg-primary-fixed-dim text-on-primary-container font-bold text-sm uppercase tracking-wider transition-all shadow-lg flex items-center justify-center gap-2 rounded-lg font-display py-3.5" :style="{ fontFamily: displayFont }" :disabled="formSubmitted || isSubmitting">
+                  <template v-if="formSubmitted">
+                    <Icon name="lucide:check-circle" :size="24" aria-hidden="true" />
+                    <span>{{ page.form.sentButton }}</span>
+                  </template>
+                  <template v-else-if="isSubmitting">
+                    <Icon name="lucide:loader-2" :size="24" class="animate-spin" aria-hidden="true" />
+                    <span>Enviando...</span>
+                  </template>
+                  <template v-else>
+                    <Icon name="lucide:terminal" :size="24" aria-hidden="true" />
+                    <span>{{ page.form.submit }}</span>
+                  </template>
                 </button>
                 <div class="bg-surface-container-lowest p-3 flex items-start gap-2 rounded-lg">
                   <Icon name="lucide:lock" :size="20" class="text-primary-container shrink-0 mt-[2px]" aria-hidden="true" />
